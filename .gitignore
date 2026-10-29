@@ -1,0 +1,18 @@
+# Never commit customer recordings, credentials, runtime, or generated feedback.
+.runtime/
+recordings/
+results/
+work/
+.env
+.env.*
+__pycache__/
+*.pyc
+.DS_Store
+*.wav
+*.mp3
+*.mp4
+*.m4a
+*.webm
+*.mov
+*.flac
+*.ogg

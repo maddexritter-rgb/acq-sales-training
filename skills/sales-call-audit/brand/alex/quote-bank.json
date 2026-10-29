@@ -1,0 +1,114 @@
+[
+  {
+    "id": "V1-curiosity",
+    "quote": "you want to understand not win",
+    "attribution": "Alex Hormozi",
+    "source_id": "V1",
+    "source_title": "The Ultimate Sales Training for 2026 [Full Course]",
+    "source_url": "https://www.youtube.com/watch?v=StVqS0jD7Ls",
+    "locator": "5514.2\u20135516.5 seconds",
+    "context": "Childlike curiosity when a prospect does not immediately buy, rather than reflexively hard-closing.",
+    "applies_to": [
+      "defensive objection handling",
+      "ignoring buyer corrections",
+      "understanding before persuading"
+    ],
+    "avoid": "Does not establish that a particular response caused a lost sale.",
+    "verification": "Exact wording checked against automatic captions and surrounding text; audio not checked."
+  },
+  {
+    "id": "V2-focused-practice",
+    "quote": "they're just going to focus on one at a time",
+    "attribution": "Alex Hormozi",
+    "source_id": "V2",
+    "source_title": "How to Sell Better than 99% Of People (4 HOUR ULTIMATE GUIDE)",
+    "source_url": "https://www.youtube.com/watch?v=JE2_7elAcxM",
+    "locator": "6213.0\u20136214.5 seconds",
+    "context": "A skills coach may see many problems but addresses them one at a time.",
+    "applies_to": [
+      "choosing one practice priority",
+      "avoiding overwhelming feedback"
+    ],
+    "avoid": "Not a direct explanation for a buyer objection; use for the practice recommendation.",
+    "verification": "Exact wording checked against automatic captions and surrounding text; audio not checked."
+  },
+  {
+    "id": "H1-recap",
+    "quote": "Repeat their problems in their words.",
+    "attribution": "ACQ Closer Handbook",
+    "source_id": "H1",
+    "source_title": "ACQ Closer Handbook",
+    "source_url": "private-source-not-distributed",
+    "locator": "Discovery: Step 6\u20138, Recap, Label, & Confirm; step 6",
+    "context": "Recap the buyer problem, label it, then ask whether the diagnosis is correct.",
+    "applies_to": [
+      "inaccurate recap",
+      "buyer correction",
+      "generic pitch disconnected from discovery"
+    ],
+    "avoid": "Do not attribute this document wording to Alex as a spoken quote.",
+    "verification": "Exact excerpt checked against retrieved handbook text."
+  },
+  {
+    "id": "V1-one-feedback",
+    "quote": "one piece of feedback at a time",
+    "attribution": "Alex Hormozi",
+    "source_id": "V1",
+    "source_title": "The Ultimate Sales Training for 2026 [Full Course]",
+    "source_url": "https://www.youtube.com/watch?v=StVqS0jD7Ls",
+    "locator": "1344.6\u20131347.0 seconds",
+    "context": "The trainer is contrasting immediate focused correction with a long list of feedback after role-play.",
+    "applies_to": [
+      "practice prioritization"
+    ],
+    "avoid": "Apply to the supported context; not a universal factual claim or proof of causation.",
+    "verification": "Exact words matched against retained automatic captions; context reviewed; audio not checked."
+  },
+  {
+    "id": "V1-pain",
+    "quote": "the pain is the pitch",
+    "attribution": "Alex Hormozi",
+    "source_id": "V1",
+    "source_title": "The Ultimate Sales Training for 2026 [Full Course]",
+    "source_url": "https://www.youtube.com/watch?v=StVqS0jD7Ls",
+    "locator": "3722.2\u20133726.9 seconds",
+    "context": "The discussion explains how the buyer\u2019s present situation, desired result, and attempts motivate the sale.",
+    "applies_to": [
+      "discovery-to-offer connection"
+    ],
+    "avoid": "Apply to the supported context; not a universal factual claim or proof of causation.",
+    "verification": "Exact words matched against retained automatic captions; context reviewed; audio not checked."
+  },
+  {
+    "id": "V2-utterances",
+    "quote": "questions restatements and anecdotal stories",
+    "attribution": "Alex Hormozi",
+    "source_id": "V2",
+    "source_title": "How to Sell Better than 99% Of People (4 HOUR ULTIMATE GUIDE)",
+    "source_url": "https://www.youtube.com/watch?v=JE2_7elAcxM",
+    "locator": "10263.0\u201310266.7 seconds",
+    "context": "The trainer is describing concise question-based sales dialogue and explaining a solution through a short illustrative story.",
+    "applies_to": [
+      "script concision",
+      "replacing monologues"
+    ],
+    "avoid": "Apply to the supported context; not a universal factual claim or proof of causation.",
+    "verification": "Exact words matched against retained automatic captions; context reviewed; audio not checked."
+  },
+  {
+    "id": "V2-prospect",
+    "quote": "they only care about them",
+    "attribution": "Alex Hormozi",
+    "source_id": "V2",
+    "source_title": "How to Sell Better than 99% Of People (4 HOUR ULTIMATE GUIDE)",
+    "source_url": "https://www.youtube.com/watch?v=JE2_7elAcxM",
+    "locator": "10509.0\u201310511.1 seconds",
+    "context": "The trainer criticizes reps talking about company size without learning the prospect\u2019s problem.",
+    "applies_to": [
+      "irrelevant authority claims",
+      "buyer-specific pitch"
+    ],
+    "avoid": "Apply to the supported context; not a universal factual claim or proof of causation.",
+    "verification": "Exact words matched against retained automatic captions; context reviewed; audio not checked."
+  }
+]
