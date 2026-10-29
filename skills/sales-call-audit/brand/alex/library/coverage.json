@@ -1,0 +1,64 @@
+{
+  "review_date": "2026-10-29",
+  "method": "Every retained text line read in bounded sequential sections; long truncated reads recovered. Semantic review is separate from indexing.",
+  "sources": [
+    {
+      "source_id": "H1",
+      "line_count": 2630,
+      "sha256": "49787517102cc1ed7c11daf003d7dd8f4b28590e5ad4435e16aa8b5aa46e7206",
+      "reviewed_line_ranges": [
+        [
+          1,
+          2630
+        ]
+      ],
+      "review": "complete retained text",
+      "audio_verified": null,
+      "images_reviewed": false
+    },
+    {
+      "source_id": "V1",
+      "line_count": 4585,
+      "sha256": "bb339e7bcf034b3316803c06e831aa072ff4a77c56f8acd054df43bdbbfe3f0b",
+      "reviewed_line_ranges": [
+        [
+          1,
+          4585
+        ]
+      ],
+      "review": "complete retained text",
+      "audio_verified": false,
+      "images_reviewed": null
+    },
+    {
+      "source_id": "V2",
+      "line_count": 8726,
+      "sha256": "918ec8d23e19b0d369d3d14e99735393df9a27288c51518cadd5c32549bdf969",
+      "reviewed_line_ranges": [
+        [
+          1,
+          8726
+        ]
+      ],
+      "review": "complete retained text",
+      "audio_verified": false,
+      "images_reviewed": null
+    }
+  ],
+  "limits": [
+    "Automatic video captions may contain errors.",
+    "Handbook embedded images and diagrams were not included in the retained text.",
+    "Three additional handbook-linked videos are not included.",
+    "This is a selective operational distillation, not publication of the source materials or every source claim."
+  ],
+  "practice_source": {
+    "source_id": "P1",
+    "video_id": "ci-FdcWiJiA",
+    "role": "public cold-call demonstration, not Alex teaching",
+    "line_count": 705,
+    "sha256": "37c96ce2db30cb7a620d8a1946e59a53b3e0a643795e0a2975ec5a41781c4082",
+    "review": "complete retained captions",
+    "audio_verified": false,
+    "deduplication": "Opening teaser repeats the later conversation around 1020 seconds; do not count twice."
+  }
+}

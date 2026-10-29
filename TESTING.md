@@ -11,3 +11,13 @@ Integration references: [Claude Code skills](https://code.claude.com/docs/en/ski
 ## Coaching expansion validation
 
 The coaching lab adds ten original worked scenarios and an interactive practice loop. Five fictional behavioral cases are supplied in [evaluations/coaching-cases.md](evaluations/coaching-cases.md). They are evaluation prompts with criteria, not claimed automated passes. Three real transcript moments were re-read and used for owner-local, author-reviewed feedback examples: corrected reporting premise, missed training-process follow-up, and an assumed missing roadmap. No private call transcript or real-case output was added to this repository. Independent fresh-session model evaluation remains pending.
+
+## Full-library release — October 29, 2026
+
+The earlier 25-card summary is replaced by 100 detailed cards in ten modules. Every retained line of the supplied handbook and both course caption files was read; [coverage](skills/sales-call-audit/brand/alex/library/coverage.json) records hashes, ranges, and exclusions. The entire retained caption file of the third public call demonstration was also read as practice evidence, with its repeated teaser deduplicated conceptually.
+
+Run `python tests/test_library.py` as well as `python tests/test_install.py`. The library test checks 100 unique complete cards, Markdown/data parity, source-range bounds, twelve fictional retrieval probes, no-result/filter behavior, and execution of the lookup helper from both installed project locations. These checks passed locally.
+
+Four complete retained real Trellus transcripts (218 turns) were read and normalized through a fresh project installation. Text and final turns matched the inputs exactly. Four author-created diagnosis queries retrieved the intended cards first. Private feedback examples covered a corrected diagnosis, contradictory support claims, connection failure as an alternative to price rejection, and a positive purchase-intent follow-up with payment still unverified. These were author-reviewed outputs. The queries were supplied after reading the calls; this is not a blind automatic diagnosis benchmark. Neither the transcripts nor the feedback containing private call excerpts are public.
+
+Independent model/human review remains pending; no conversion lift is established. Audio implementation was unchanged, so its earlier real-audio validation was not rerun for this content release.

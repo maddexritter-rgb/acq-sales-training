@@ -1,12 +1,12 @@
 # Sales-call coaching source profile — Alex
 
-Updated: October 29, 2026. V4 coaching draft. Load this profile explicitly alongside [the reusable skill](../../SKILL.md). This is a coaching implementation of training, not a claim that Alex personally audits each uploaded call.
+Updated: October 29, 2026. Full-text review and library release. Load this profile explicitly alongside [the reusable skill](../../SKILL.md). This is a coaching implementation of training, not a claim that Alex personally audits each uploaded call.
 
 ## Sources
 
-- **H1 — ACQ Closer Handbook.** private-source-not-distributed — user-supplied source, fetched successfully, 153,124 normalized characters. Provider reports last modified July 15, 2026. All 2,630 retained text lines were reviewed in bounded sections during V4, including onboarding, training, pipeline, and the complete script appendix. Embedded diagrams/images were not included in the extracted text and are not claimed reviewed.
-- **V1 — The Ultimate Sales Training for 2026 [Full Course].** https://www.youtube.com/watch?v=StVqS0jD7Ls — uploader Alex Hormozi, duration 9,241 seconds. Complete available English automatic captions downloaded; 4,585 text events. Context-reviewed ranges: 1300–1550s, 3400–3820s, 4564–4789s, 5297–5398s, and 5487–5548s. All retained lines indexed; not every minute semantically reviewed. Auto-captions are not manually verified.
-- **V2 — How to Sell Better than 99% Of People (4 HOUR ULTIMATE GUIDE).** https://www.youtube.com/watch?v=JE2_7elAcxM — uploader Alex Hormozi, duration 16,999 seconds. Complete available English automatic captions downloaded; 8,726 text events. Context-reviewed ranges: 0–145s, 973–1083s, 6000–6420s, and 9760–10880s. All retained lines indexed; not every minute semantically reviewed. Auto-captions are not manually verified.
+- **H1 — ACQ Closer Handbook.** private-source-not-distributed — user-supplied source, fetched successfully, 153,124 normalized characters. Provider reports last modified July 15, 2026. All 2,630 retained text lines were reviewed in bounded sections in the current full-review pass, including onboarding, training, pipeline, and the complete script appendix. Embedded diagrams/images were not included in the extracted text and are not claimed reviewed.
+- **V1 — The Ultimate Sales Training for 2026 [Full Course].** https://www.youtube.com/watch?v=StVqS0jD7Ls — uploader Alex Hormozi, duration 9,241 seconds. Complete available English automatic captions downloaded; 4,585 text events. All retained caption entries were read in bounded sequential sections during this release. Caption wording is not audio-verified.
+- **V2 — How to Sell Better than 99% Of People (4 HOUR ULTIMATE GUIDE).** https://www.youtube.com/watch?v=JE2_7elAcxM — uploader Alex Hormozi, duration 16,999 seconds. Complete available English automatic captions downloaded; 8,726 text events. All retained caption entries were read in bounded sequential sections during this release. Caption wording is not audio-verified.
 - **T1 — Free Sales Team Training: Use Tone That Converts.** private-source-not-distributed — read through the connected Drive tool. Use for delivery distinctions and practice. Numeric claims about conversion lifts were not independently verified and are excluded from the coaching promises.
 
 H1 also lists the exact two supplied videos as additional training. Three further videos are referenced in H1 but have not been ingested or represented as reviewed: RVbvhPGFi6E, NcD2t9qt-fM, cy2k1GdA-9o.
@@ -33,8 +33,12 @@ Read [coaching-method.md](coaching-method.md) to select a source-backed interven
 
 ## Private retrieval and coverage
 
-The complete retained handbook and both course transcripts have 305 searchable passages with source IDs, line spans, timestamps for video, and source hashes. Acquisition/indexing coverage is complete for these three text files. Context review is reported separately above. The owner’s private index and full sources are not distributed with the skill. Other workbooks or linked videos have no implied coverage. The separately reviewed tone document has no full-text copy in this index and supplies no quote in the quote bank.
+The complete retained handbook and both course transcripts have 305 searchable passages with source IDs, line spans, timestamps for video, and source hashes. Acquisition/indexing coverage is complete for these three text files. Complete retained-text semantic review is recorded in [the coverage manifest](library/coverage.json), separately from indexing. The owner’s private index and full sources are not distributed with the skill. Other workbooks or linked videos have no implied coverage. The separately reviewed tone document has no full-text copy in this index and supplies no quote in the quote bank.
 
 ## Worked coaching and practice
 
 Load [coaching-lab.md](coaching-lab.md) for ten original scenario applications, conditional replacement dialogue, observable practice criteria, and interactive rehearsal. These are distilled teaching adaptations; they are not a reproduction of the paid handbook or quotes from customer calls. V1 4605–4706s was additionally reviewed for decision clarification.
+
+## Full coaching library
+
+[100 decision cards](library/README.md) now replace the 25-card summary. Every retained line of H1, V1, and V2 was read for this release; source hashes and exact coverage bounds are retained in the manifest. The third supplied public cold-call video’s full retained captions were also reviewed as a practice source, not Alex training. Its opening teaser repeats a later call and must not count as another prospect. No new audio-verification claim is made.

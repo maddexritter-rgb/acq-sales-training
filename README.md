@@ -32,6 +32,8 @@ See [installation instructions](INSTALL.md), [the skill](skills/sales-call-audit
 
 ## Coaching depth
 
-The bundled learning material contains 25 source-backed decision cards and ten worked scenarios with replacement dialogue, buyer-response branches, and practice criteria. It draws on the two supplied public video courses and distilled handbook principles. Full courses, the paid handbook, private source indexes, and real prospect transcripts are not distributed. The distilled guidance itself is public and readable.
+The bundled learning material contains 100 detailed source-backed decision cards across ten coaching areas and ten worked scenarios with replacement dialogue, buyer-response branches, and practice criteria. It was built after reading every retained text line of both supplied video courses and the entire extracted handbook text. Each card provides a trigger, a specific intervention, original suggested wording, conditional next steps, a practice check, boundaries, and source-section references. Full courses, the paid handbook, private source indexes, and real prospect transcripts are not distributed. The distilled guidance itself is public and readable.
 
 Ask for a focused call review, a script rewrite, or interactive practice. During practice the coach gives one buyer line, waits for the learner, and corrects one behavior before the next attempt.
+
+Explore the [coaching library](skills/sales-call-audit/brand/alex/library/README.md), see [an example first audit](skills/sales-call-audit/brand/alex/library/first-audit.md), or inspect [source coverage](skills/sales-call-audit/brand/alex/library/coverage.json). The first response stays focused; the deeper library supports follow-up questions, scripts, and practice.

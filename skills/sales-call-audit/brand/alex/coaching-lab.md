@@ -20,7 +20,7 @@ Use one of the following patterns only when it fits. Let the real buyer's langua
 - If corrected: restate the corrected version, then ask one question about it.
 - If the buyer says there is no problem: stop manufacturing one; clarify why they took the call.
 **Practice:** The buyer corrects a different detail each round. The rep passes the attempt when the revised recap reflects that correction and the next question does not reintroduce the rejected premise.
-**Basis:** decision cards 5–7; H1 discovery; V2 10234–10254s.
+**Basis:** DIS05, DIS06, and DIS09; H1 discovery; V2 10234–10254s.
 
 ## B. The buyer gives a category instead of an example
 
@@ -31,7 +31,7 @@ Use one of the following patterns only when it fits. Let the real buyer's langua
 - If the answer remains vague: narrow to an observable step—who does what today, and where does it stop working?
 - If the buyer does not know: acknowledge the gap; don't supply invented metrics.
 **Practice:** The rep turns a broad complaint into one concrete example without feeding the buyer a problem to agree with.
-**Basis:** cards 4–5; H1 discovery; V1 3507–3609s; V2 10034–10096s.
+**Basis:** DIS02 and DIS05; H1 discovery; V1 3507–3609s; V2 10034–10096s.
 
 ## C. A past purchase failed
 
@@ -42,7 +42,7 @@ Use one of the following patterns only when it fits. Let the real buyer's langua
 - If the gap is implementation and the offer only provides education: state that limitation; don't relabel education as implementation.
 - If the buyer cannot identify a gap: clarify the reason for considering a change.
 **Practice:** Preserve one thing that worked, name one confirmed gap, and connect only an actual capability to it.
-**Basis:** card 8; V1 3759–3820s; V2 10034–10096s. The respectful wording is an adaptation, not a verbatim source script.
+**Basis:** DIS07; V1 3759–3820s; V2 10034–10096s. The respectful wording is an adaptation, not a verbatim source script.
 
 ## D. The pitch is a tour of features
 
@@ -54,7 +54,7 @@ Fill every bracket from evidence. If the mechanism is unknown, ask the offer own
 - If no: ask which part remains unresolved and change the explanation.
 - If the buyer asks about delivery details: answer; concision is not permission to hide work or terms.
 **Practice:** Rewrite one feature explanation into one buyer-specific explanation. Pass when the buyer's issue is still recognizable and no promise was added.
-**Basis:** cards 9–10; H1 offer; V2 10154–10418s.
+**Basis:** OFF01 and OFF02; H1 offer; V2 10154–10418s.
 
 ## E. “It's too expensive” has several meanings
 
@@ -66,7 +66,7 @@ Fill every bracket from evidence. If the mechanism is unknown, ask the offer own
 - If the concern is another failed purchase: ask what failed before and what evidence would help evaluate this one.
 - If the buyer is comparing alternatives: compare actual scope and requirements, not imagined competitor weaknesses.
 **Practice:** The manager secretly chooses one concern. The rep must identify it from the buyer's answer before proposing a response. Do not use debt, shame, or imaginary ROI to force a purchase.
-**Basis:** card 15; H1 money concerns; V2 6298–6325s. The branching dialogue is an original adaptation.
+**Basis:** MON01; H1 money concerns; V2 6298–6325s. The branching dialogue is an original adaptation.
 
 ## F. A stakeholder is missing
 
@@ -77,7 +77,7 @@ Fill every bracket from evidence. If the mechanism is unknown, ask the offer own
 - If no: ask how the actual decision process works and what material would be useful.
 - If the buyer is declining: respect the refusal; don't treat every partner reference as a tactic.
 **Practice:** The rep distinguishes decision authority from implementation responsibility and proposes a next step suited to the actual process.
-**Basis:** card 17; V2 6390–6418s; H1 stakeholder/next-step guidance. Multi-call business sales are not graded as one-call consumer closes.
+**Basis:** TIM06 and TIM08; V2 6390–6418s; H1 stakeholder/next-step guidance. Multi-call business sales are not graded as one-call consumer closes.
 
 ## G. “I'll think about it” ends the conversation
 
@@ -88,7 +88,7 @@ Fill every bracket from evidence. If the mechanism is unknown, ask the offer own
 - If another participant or document is needed: agree how that information will be obtained.
 - If the buyer wants time without discussion: respect that; offer a specific follow-up only if welcome.
 **Practice:** Learn one actual decision criterion before giving advice. The buyer is allowed to say no; success is a clarified decision, not forced agreement.
-**Basis:** card 19; V1 4605–4706s; V2 10609–10717s.
+**Basis:** OBJ03 and TIM05; V1 4605–4706s; V2 10609–10717s.
 
 ## H. The rep asks, then answers for the buyer
 
@@ -99,7 +99,7 @@ Fill every bracket from evidence. If the mechanism is unknown, ask the offer own
 - If the buyer raises a concern: clarify that concern.
 - If the audio may have dropped: check the connection. Silence is not itself an objection.
 **Practice:** Ask one question and let the practice partner answer. Assess turn-taking, not an arbitrary universal number of seconds.
-**Basis:** cards 11 and 24; H1 tone; V2 10764–10880s.
+**Basis:** CLS02 and DEL01; H1 tone; V2 10764–10880s.
 
 ## I. Interest is mistaken for a next step
 
@@ -110,7 +110,7 @@ Fill every bracket from evidence. If the mechanism is unknown, ask the offer own
 - If the buyer needs information first: establish what they need and who will send it; do not claim the meeting is booked.
 - If no: clarify only if welcome, then end respectfully.
 **Practice:** Finish with an action and owner the buyer actually accepted. Distinguish verbal intention, scheduling, payment submission, and confirmed payment.
-**Basis:** cards 20–21; H1 next-step guidance; V2 10717–10755s.
+**Basis:** CLS06 and CLS08; H1 next-step guidance; V2 10717–10755s.
 
 ## J. A successful close contains a coaching issue
 
@@ -118,7 +118,7 @@ Fill every bracket from evidence. If the mechanism is unknown, ask the offer own
 **Useful feedback:** “The purchase was a positive outcome. This particular claim still needs correction.” Name the exact behavior rather than discounting the entire call.
 **Suggested action:** Keep the successful discovery or ask; replace the unsupported promise with verified scope. If the user requests customer follow-up, draft it, but do not send it automatically.
 **Practice:** Compare two calls with similar stages and offers. Identify the behavior in both without assuming the win proves causality or the loss proves incompetence.
-**Basis:** cards 22 and 25; H1 training; V2 6000–6138s.
+**Basis:** MGR05 and OPS02; H1 training; V2 6000–6138s.
 
 ## Run practice as a conversation
 

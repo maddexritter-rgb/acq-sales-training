@@ -1,0 +1,3492 @@
+[
+  {
+    "id": "CTX01",
+    "module": "01-context",
+    "title": "Identify the call's job",
+    "trigger": "A setter, follow-up, or onboarding call is judged as a failed close.",
+    "action": "Name the intended commitment from the opening and prior context before evaluating missing stages.",
+    "suggested_dialogue": "The next step here is a conversation with the specialist. Would that be useful?",
+    "branches": "If the job is booking, assess booking; if closing, assess a buying decision.",
+    "practice": "State the job and one matching success criterion before scoring.",
+    "do_not_apply": "Do not invent a call objective from a CRM label alone.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 443,
+        "end_line": 453
+      },
+      {
+        "source_id": "H1",
+        "start_line": 763,
+        "end_line": 811
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1381,
+        "end_line": 1679,
+        "start_seconds": 2900.0,
+        "end_seconds": 3504.5
+      }
+    ]
+  },
+  {
+    "id": "CTX02",
+    "module": "01-context",
+    "title": "Use the existing notes",
+    "trigger": "The buyer repeats facts already supplied in an application or earlier call.",
+    "action": "Confirm the relevant prior fact, then ask what changed.",
+    "suggested_dialogue": "The earlier notes say expansion stalled at hiring. Is that still the issue?",
+    "branches": "If confirmed, investigate the current gap; if corrected, replace the old note.",
+    "practice": "Use one verified prior fact without making the buyer retell the whole story.",
+    "do_not_apply": "Missing notes are unknown context, not proof the rep failed.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 443,
+        "end_line": 453
+      },
+      {
+        "source_id": "H1",
+        "start_line": 763,
+        "end_line": 811
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1381,
+        "end_line": 1679,
+        "start_seconds": 2900.0,
+        "end_seconds": 3504.5
+      }
+    ]
+  },
+  {
+    "id": "CTX03",
+    "module": "01-context",
+    "title": "Repair caller confusion",
+    "trigger": "The buyer asks who is calling or does not recognize the resource.",
+    "action": "Restate identity and the actual reason in one sentence before discovery.",
+    "suggested_dialogue": "This is the team following up on the business guide requested. Does that ring a bell?",
+    "branches": "If yes, ask permission to continue; if no, explain briefly and offer to end.",
+    "practice": "The buyer can identify the caller and reason before the next discovery question.",
+    "do_not_apply": "Never imply a relationship or request that is not supported.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 443,
+        "end_line": 453
+      },
+      {
+        "source_id": "H1",
+        "start_line": 763,
+        "end_line": 811
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1381,
+        "end_line": 1679,
+        "start_seconds": 2900.0,
+        "end_seconds": 3504.5
+      }
+    ]
+  },
+  {
+    "id": "CTX04",
+    "module": "01-context",
+    "title": "Check available attention",
+    "trigger": "The buyer is driving, distracted, or repeatedly says time is short.",
+    "action": "Offer a short purposeful conversation or a later time; do not press for detailed figures.",
+    "suggested_dialogue": "It sounds like now is awkward. Would a better time make this easier?",
+    "branches": "If available, narrow the agenda; if unavailable, agree a later contact only if wanted.",
+    "practice": "Ask the availability question and follow the answer.",
+    "do_not_apply": "Do not infer consent to a long call from answering the phone.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 443,
+        "end_line": 453
+      },
+      {
+        "source_id": "H1",
+        "start_line": 763,
+        "end_line": 811
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1381,
+        "end_line": 1679,
+        "start_seconds": 2900.0,
+        "end_seconds": 3504.5
+      }
+    ]
+  },
+  {
+    "id": "CTX05",
+    "module": "01-context",
+    "title": "Fix connection before diagnosing",
+    "trigger": "Repeated requests to repeat or statements about cutting out appear.",
+    "action": "Pause the sales sequence, check whether speech is coming through, and offer a reconnection.",
+    "suggested_dialogue": "The line keeps cutting out. Should we reconnect, or find another time?",
+    "branches": "If repaired, recap the last confirmed fact; if not, stop the substantive pitch.",
+    "practice": "After two explicit hearing problems, address the connection before another sales question.",
+    "do_not_apply": "Silence after price is not a price objection without a buyer response.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 443,
+        "end_line": 453
+      },
+      {
+        "source_id": "H1",
+        "start_line": 763,
+        "end_line": 811
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1381,
+        "end_line": 1679,
+        "start_seconds": 2900.0,
+        "end_seconds": 3504.5
+      }
+    ]
+  },
+  {
+    "id": "CTX06",
+    "module": "01-context",
+    "title": "Use relevant credibility",
+    "trigger": "The rep lists company status while the buyer's problem remains unclear.",
+    "action": "Give only credibility that explains why this conversation is relevant, then return to the buyer.",
+    "suggested_dialogue": "The team works on this type of bottleneck. Where is it showing up in this business?",
+    "branches": "If the claim is verified, keep it brief; otherwise omit it.",
+    "practice": "Each credibility statement connects to a stated buyer problem.",
+    "do_not_apply": "Company size does not prove this offer fits.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 443,
+        "end_line": 453
+      },
+      {
+        "source_id": "H1",
+        "start_line": 763,
+        "end_line": 811
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1381,
+        "end_line": 1679,
+        "start_seconds": 2900.0,
+        "end_seconds": 3504.5
+      }
+    ]
+  },
+  {
+    "id": "CTX07",
+    "module": "01-context",
+    "title": "Set a useful agenda",
+    "trigger": "The conversation drifts because neither side knows the intended decision.",
+    "action": "Explain the sequence and possible next step, including that no fit is possible.",
+    "suggested_dialogue": "First, clarify the bottleneck. Then check whether the service fits. If it does, discuss the next step.",
+    "branches": "If the buyer wants a different agenda, agree it; if time is short, reduce scope.",
+    "practice": "Deliver the agenda in two sentences and get agreement.",
+    "do_not_apply": "Do not manufacture a promise to buy before discovery.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 443,
+        "end_line": 453
+      },
+      {
+        "source_id": "H1",
+        "start_line": 763,
+        "end_line": 811
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1381,
+        "end_line": 1679,
+        "start_seconds": 2900.0,
+        "end_seconds": 3504.5
+      }
+    ]
+  },
+  {
+    "id": "CTX08",
+    "module": "01-context",
+    "title": "Separate cold from pre-sold",
+    "trigger": "The buyer already consumed training or had detailed discovery.",
+    "action": "Ask what is already understood and what still needs resolving.",
+    "suggested_dialogue": "What is already clear about the service, and what still needs an answer?",
+    "branches": "If well informed, focus on remaining concerns; if unfamiliar, explain essentials.",
+    "practice": "Avoid repeating a pitch the buyer can already summarize accurately.",
+    "do_not_apply": "Do not infer comprehension merely from a sent video link.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 443,
+        "end_line": 453
+      },
+      {
+        "source_id": "H1",
+        "start_line": 763,
+        "end_line": 811
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1381,
+        "end_line": 1679,
+        "start_seconds": 2900.0,
+        "end_seconds": 3504.5
+      }
+    ]
+  },
+  {
+    "id": "CTX09",
+    "module": "01-context",
+    "title": "Prepare for the person",
+    "trigger": "The rep asks broad questions despite relevant known business context.",
+    "action": "Review the stated goal, last conversation, and promised follow-up before the call.",
+    "suggested_dialogue": "Last time the concern was training new hires. What happened with that since then?",
+    "branches": "If still open, continue there; if resolved, find the current priority.",
+    "practice": "Write a three-line pre-call brief: goal, open issue, promised next step.",
+    "do_not_apply": "Research should not become intrusive speculation about private finances.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 443,
+        "end_line": 453
+      },
+      {
+        "source_id": "H1",
+        "start_line": 763,
+        "end_line": 811
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1381,
+        "end_line": 1679,
+        "start_seconds": 2900.0,
+        "end_seconds": 3504.5
+      }
+    ]
+  },
+  {
+    "id": "CTX10",
+    "module": "01-context",
+    "title": "Know the offer before promising",
+    "trigger": "The rep is uncertain about support, terms, eligibility, or dates.",
+    "action": "Use an approved offer facts sheet; mark unknowns for confirmation.",
+    "suggested_dialogue": "That detail needs checking. The confirmed part is [known fact]. Can the team verify the remaining point before a decision?",
+    "branches": "If verified, answer directly; if unknown, assign an owner and return time.",
+    "practice": "Separate confirmed facts from assumptions in every proposed script.",
+    "do_not_apply": "Do not fill missing offer details with the training company's historical terms.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 443,
+        "end_line": 453
+      },
+      {
+        "source_id": "H1",
+        "start_line": 763,
+        "end_line": 811
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1381,
+        "end_line": 1679,
+        "start_seconds": 2900.0,
+        "end_seconds": 3504.5
+      }
+    ]
+  },
+  {
+    "id": "DIS01",
+    "module": "02-discovery",
+    "title": "Find the reason for the conversation",
+    "trigger": "The buyer asks for information but no useful objective is known.",
+    "action": "Ask what the information is meant to help them decide or improve.",
+    "suggested_dialogue": "What would this information help the business change?",
+    "branches": "If a specific goal emerges, follow it; if exploratory, offer an appropriate brief overview.",
+    "practice": "Get a buyer-stated reason without assigning a problem to them.",
+    "do_not_apply": "Some buyers are legitimately researching.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 812,
+        "end_line": 921
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1680,
+        "end_line": 1835,
+        "start_seconds": 3507.6,
+        "end_seconds": 3818.5
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5102,
+        "end_line": 5228,
+        "start_seconds": 9882.5,
+        "end_seconds": 10099.6
+      }
+    ]
+  },
+  {
+    "id": "DIS02",
+    "module": "02-discovery",
+    "title": "Make the current state concrete",
+    "trigger": "The rep labels the situation without an example or baseline.",
+    "action": "Ask what happens today in the part of the business being discussed.",
+    "suggested_dialogue": "Walk through the last time that happened. What did the team do?",
+    "branches": "If an example is available, use it; if not, keep the diagnosis tentative.",
+    "practice": "Capture one observable current-state example.",
+    "do_not_apply": "Do not demand irrelevant revenue numbers for every sale.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 812,
+        "end_line": 921
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1680,
+        "end_line": 1835,
+        "start_seconds": 3507.6,
+        "end_seconds": 3818.5
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5102,
+        "end_line": 5228,
+        "start_seconds": 9882.5,
+        "end_seconds": 10099.6
+      }
+    ]
+  },
+  {
+    "id": "DIS03",
+    "module": "02-discovery",
+    "title": "Define the desired change",
+    "trigger": "The buyer says grow, improve, or scale without describing the change.",
+    "action": "Ask what would be different if the problem were solved.",
+    "suggested_dialogue": "What would be happening differently three months from now if this worked?",
+    "branches": "If measurable, record the measure; if qualitative, record the concrete behavior.",
+    "practice": "Restate the desired result without adding a target the buyer never supplied.",
+    "do_not_apply": "A desired deadline is not a guaranteed delivery date.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 812,
+        "end_line": 921
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1680,
+        "end_line": 1835,
+        "start_seconds": 3507.6,
+        "end_seconds": 3818.5
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5102,
+        "end_line": 5228,
+        "start_seconds": 9882.5,
+        "end_seconds": 10099.6
+      }
+    ]
+  },
+  {
+    "id": "DIS04",
+    "module": "02-discovery",
+    "title": "Find the obstacle",
+    "trigger": "Current and desired states are known but the rep jumps to a pitch.",
+    "action": "Ask what currently prevents the change.",
+    "suggested_dialogue": "What is stopping the team from doing that now?",
+    "branches": "If the obstacle is known, test fit; if uncertain, examine a recent example.",
+    "practice": "Connect the recommendation to a confirmed obstacle.",
+    "do_not_apply": "Do not presume that taking a call proves the offer is needed.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 812,
+        "end_line": 921
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1680,
+        "end_line": 1835,
+        "start_seconds": 3507.6,
+        "end_seconds": 3818.5
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5102,
+        "end_line": 5228,
+        "start_seconds": 9882.5,
+        "end_seconds": 10099.6
+      }
+    ]
+  },
+  {
+    "id": "DIS05",
+    "module": "02-discovery",
+    "title": "Replace vague labels with an example",
+    "trigger": "The buyer says systems, people, or strategy and the rep echoes the label.",
+    "action": "Ask for one incident that shows what the label means in practice.",
+    "suggested_dialogue": "When the owner is away, what is the first thing that stops working?",
+    "branches": "If people conflict, explore responsibility; if reporting fails, explore reporting.",
+    "practice": "Use the example to change the next question.",
+    "do_not_apply": "Do not repeat the same abstract question louder.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 812,
+        "end_line": 921
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1680,
+        "end_line": 1835,
+        "start_seconds": 3507.6,
+        "end_seconds": 3818.5
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5102,
+        "end_line": 5228,
+        "start_seconds": 9882.5,
+        "end_seconds": 10099.6
+      }
+    ]
+  },
+  {
+    "id": "DIS06",
+    "module": "02-discovery",
+    "title": "Accept a corrected diagnosis",
+    "trigger": "The buyer corrects the rep's premise and the rep repeats it.",
+    "action": "Say what changed in the understanding and ask the next question using the correction.",
+    "suggested_dialogue": "The reports do arrive. The concern is what happens without direct supervision. What breaks first?",
+    "branches": "If confirmed, investigate execution; if corrected again, let the buyer explain before labeling.",
+    "practice": "Make the next two questions consistent with the correction.",
+    "do_not_apply": "A polite yes before a correction does not override the correction.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 812,
+        "end_line": 921
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1680,
+        "end_line": 1835,
+        "start_seconds": 3507.6,
+        "end_seconds": 3818.5
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5102,
+        "end_line": 5228,
+        "start_seconds": 9882.5,
+        "end_seconds": 10099.6
+      }
+    ]
+  },
+  {
+    "id": "DIS07",
+    "module": "02-discovery",
+    "title": "Investigate prior attempts",
+    "trigger": "A previous provider or internal fix failed.",
+    "action": "Ask what was tried, for how long, what worked, and what remained missing.",
+    "suggested_dialogue": "What improved with that approach, and where did it still fall short?",
+    "branches": "If it worked partly, preserve that gain; if failure cause is unknown, do not diagnose it as fact.",
+    "practice": "Name the missing component using evidence, not a competitor insult.",
+    "do_not_apply": "Do not claim every previous provider failed for the same reason.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 812,
+        "end_line": 921
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1680,
+        "end_line": 1835,
+        "start_seconds": 3507.6,
+        "end_seconds": 3818.5
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5102,
+        "end_line": 5228,
+        "start_seconds": 9882.5,
+        "end_seconds": 10099.6
+      }
+    ]
+  },
+  {
+    "id": "DIS08",
+    "module": "02-discovery",
+    "title": "Quantify only with real inputs",
+    "trigger": "The rep invents the cost of a problem or asserts a huge return.",
+    "action": "Ask for the buyer's relevant estimate and distinguish it from a measured figure.",
+    "suggested_dialogue": "Roughly how often does that happen, and what does each instance cost the team?",
+    "branches": "If reliable figures exist, calculate transparently; if not, use the stated operational impact.",
+    "practice": "Label every number as measured, estimated, or unknown.",
+    "do_not_apply": "Do not equate all revenue at risk with profit lost.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 812,
+        "end_line": 921
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1680,
+        "end_line": 1835,
+        "start_seconds": 3507.6,
+        "end_seconds": 3818.5
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5102,
+        "end_line": 5228,
+        "start_seconds": 9882.5,
+        "end_seconds": 10099.6
+      }
+    ]
+  },
+  {
+    "id": "DIS09",
+    "module": "02-discovery",
+    "title": "Recap before the recommendation",
+    "trigger": "The rep moves from scattered facts to an offer without confirming the problem.",
+    "action": "Summarize current state, desired change, and obstacle in the buyer's language.",
+    "suggested_dialogue": "The team can sell, but new hires cannot repeat the process. Is that the main issue to solve?",
+    "branches": "If yes, map the offer; if no, revise the recap.",
+    "practice": "The buyer confirms or corrects a concise recap before the pitch.",
+    "do_not_apply": "Do not force three problems when one clear problem is sufficient.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 812,
+        "end_line": 921
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1680,
+        "end_line": 1835,
+        "start_seconds": 3507.6,
+        "end_seconds": 3818.5
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5102,
+        "end_line": 5228,
+        "start_seconds": 9882.5,
+        "end_seconds": 10099.6
+      }
+    ]
+  },
+  {
+    "id": "DIS10",
+    "module": "02-discovery",
+    "title": "Stop discovery when it is sufficient",
+    "trigger": "Repeated pain questions add no new information and delay the useful next step.",
+    "action": "Name what is already understood and ask permission to explain the relevant solution.",
+    "suggested_dialogue": "The bottleneck is clear enough to discuss an option. Would it help to see how the service addresses it?",
+    "branches": "If ready, transition; if a material gap remains, ask only that question.",
+    "practice": "Explain why the next question is necessary or omit it.",
+    "do_not_apply": "More distress is not the objective of discovery.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 812,
+        "end_line": 921
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1680,
+        "end_line": 1835,
+        "start_seconds": 3507.6,
+        "end_seconds": 3818.5
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5102,
+        "end_line": 5228,
+        "start_seconds": 9882.5,
+        "end_seconds": 10099.6
+      }
+    ]
+  },
+  {
+    "id": "OFF01",
+    "module": "03-offer",
+    "title": "Build the offer from the problem",
+    "trigger": "The pitch could be delivered unchanged to any buyer.",
+    "action": "Connect the confirmed problem to an actual capability and the resulting benefit.",
+    "suggested_dialogue": "The issue is inconsistent onboarding. [Verified capability] addresses that by [specific mechanism]. Is that the part that matters most?",
+    "branches": "If relevant, explain the next component; if not, revisit the diagnosis.",
+    "practice": "Every offered feature has a buyer-specific reason.",
+    "do_not_apply": "Do not invent a capability to make the mapping work.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 922,
+        "end_line": 976
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5229,
+        "end_line": 5457,
+        "start_seconds": 10101.1,
+        "end_seconds": 10524.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 6001,
+        "end_line": 6500,
+        "start_seconds": 11574.7,
+        "end_seconds": 12574.8
+      }
+    ]
+  },
+  {
+    "id": "OFF02",
+    "module": "03-offer",
+    "title": "Explain the result before the mechanics",
+    "trigger": "The rep lists modules and jargon without explaining their purpose.",
+    "action": "Describe what the buyer can do differently, then disclose the necessary work.",
+    "suggested_dialogue": "The point is a repeatable handoff. The sessions are how the team builds and tests it.",
+    "branches": "If the buyer asks how, show the mechanism; if they ask effort, answer directly.",
+    "practice": "Translate one feature into a concrete change without promising an unverified result.",
+    "do_not_apply": "Outcome language must not conceal delivery limits.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 922,
+        "end_line": 976
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5229,
+        "end_line": 5457,
+        "start_seconds": 10101.1,
+        "end_seconds": 10524.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 6001,
+        "end_line": 6500,
+        "start_seconds": 11574.7,
+        "end_seconds": 12574.8
+      }
+    ]
+  },
+  {
+    "id": "OFF03",
+    "module": "03-offer",
+    "title": "Use an analogy to clarify",
+    "trigger": "A complex mechanism is difficult to understand.",
+    "action": "Use a short original comparison, then return to the actual service.",
+    "suggested_dialogue": "Think of it as a checklist at the handoff: it makes the missing step visible. The actual deliverable is [verified item].",
+    "branches": "If the analogy helps, move on; if confusing, explain plainly.",
+    "practice": "The buyer can state the real mechanism after the analogy.",
+    "do_not_apply": "An analogy is not evidence of effectiveness.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 922,
+        "end_line": 976
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5229,
+        "end_line": 5457,
+        "start_seconds": 10101.1,
+        "end_seconds": 10524.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 6001,
+        "end_line": 6500,
+        "start_seconds": 11574.7,
+        "end_seconds": 12574.8
+      }
+    ]
+  },
+  {
+    "id": "OFF04",
+    "module": "03-offer",
+    "title": "Match proof to the concern",
+    "trigger": "An unrelated testimonial or company statistic substitutes for answering the concern.",
+    "action": "Choose verified evidence involving the relevant problem, context, and limits.",
+    "suggested_dialogue": "The relevant example is [approved evidence]. Its similarity is [fact], and its limitation is [difference].",
+    "branches": "If relevant evidence is absent, say so and explain what can be verified.",
+    "practice": "Explain why one proof point is relevant instead of stacking status claims.",
+    "do_not_apply": "Never fabricate a customer story or imply typical results from one case.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 922,
+        "end_line": 976
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5229,
+        "end_line": 5457,
+        "start_seconds": 10101.1,
+        "end_seconds": 10524.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 6001,
+        "end_line": 6500,
+        "start_seconds": 11574.7,
+        "end_seconds": 12574.8
+      }
+    ]
+  },
+  {
+    "id": "OFF05",
+    "module": "03-offer",
+    "title": "Keep the explanation short enough to discuss",
+    "trigger": "The rep gives a long uninterrupted feature tour.",
+    "action": "Explain one relevant component and check the buyer's response before continuing.",
+    "suggested_dialogue": "That covers the hiring part. Does that address the issue described, or is the training gap more important?",
+    "branches": "If understood, proceed; if not, clarify that part.",
+    "practice": "Pause for a substantive buyer response between major components.",
+    "do_not_apply": "The source's three-minute pitch is a guide, not a universal cutoff.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 922,
+        "end_line": 976
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5229,
+        "end_line": 5457,
+        "start_seconds": 10101.1,
+        "end_seconds": 10524.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 6001,
+        "end_line": 6500,
+        "start_seconds": 11574.7,
+        "end_seconds": 12574.8
+      }
+    ]
+  },
+  {
+    "id": "OFF06",
+    "module": "03-offer",
+    "title": "Give known factual answers",
+    "trigger": "The buyer asks a concrete question about terms or delivery.",
+    "action": "Answer the known fact first, then ask why it matters if useful.",
+    "suggested_dialogue": "The confirmed support period is [approved term]. What needs to happen during that period for this to fit?",
+    "branches": "If unknown, verify; if the requirement exceeds scope, identify the mismatch.",
+    "practice": "Answer the question before returning to discovery.",
+    "do_not_apply": "Do not use questions to evade refund, price, or scope information.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 922,
+        "end_line": 976
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5229,
+        "end_line": 5457,
+        "start_seconds": 10101.1,
+        "end_seconds": 10524.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 6001,
+        "end_line": 6500,
+        "start_seconds": 11574.7,
+        "end_seconds": 12574.8
+      }
+    ]
+  },
+  {
+    "id": "OFF07",
+    "module": "03-offer",
+    "title": "Check implementation feasibility",
+    "trigger": "The offer sounds attractive but requires time or resources the buyer lacks.",
+    "action": "State the actual work required and ask how it would get done.",
+    "suggested_dialogue": "This requires [verified effort]. Who would own that work, and is the capacity available?",
+    "branches": "If capacity exists, plan ownership; if not, consider a different option or timing.",
+    "practice": "Name an implementation owner and realistic capacity before claiming fit.",
+    "do_not_apply": "Do not promise effortless implementation.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 922,
+        "end_line": 976
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5229,
+        "end_line": 5457,
+        "start_seconds": 10101.1,
+        "end_seconds": 10524.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 6001,
+        "end_line": 6500,
+        "start_seconds": 11574.7,
+        "end_seconds": 12574.8
+      }
+    ]
+  },
+  {
+    "id": "OFF08",
+    "module": "03-offer",
+    "title": "Compare alternatives on buyer criteria",
+    "trigger": "The buyer is considering another provider or doing it internally.",
+    "action": "Ask which criteria matter and compare verified facts against them.",
+    "suggested_dialogue": "What must the chosen option do that the current approach cannot?",
+    "branches": "If the alternative fits better, acknowledge it; if uncertain, identify the information needed.",
+    "practice": "Use the same criteria for all options, including doing nothing.",
+    "do_not_apply": "Do not invent competitor weaknesses or claim an inevitable result.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 922,
+        "end_line": 976
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5229,
+        "end_line": 5457,
+        "start_seconds": 10101.1,
+        "end_seconds": 10524.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 6001,
+        "end_line": 6500,
+        "start_seconds": 11574.7,
+        "end_seconds": 12574.8
+      }
+    ]
+  },
+  {
+    "id": "OFF09",
+    "module": "03-offer",
+    "title": "Resolve contradictory service information",
+    "trigger": "The buyer says a prior rep described a different offer.",
+    "action": "Acknowledge the inconsistency and verify the prior statement and current scope before persuading.",
+    "suggested_dialogue": "Those descriptions conflict. The team should reconcile them before asking for a decision.",
+    "branches": "If current scope is verified, explain it clearly; if not, schedule only a factual clarification if wanted.",
+    "practice": "Produce one consistent written scope before another buying request.",
+    "do_not_apply": "A confident longer explanation does not resolve contradictory evidence.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 922,
+        "end_line": 976
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5229,
+        "end_line": 5457,
+        "start_seconds": 10101.1,
+        "end_seconds": 10524.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 6001,
+        "end_line": 6500,
+        "start_seconds": 11574.7,
+        "end_seconds": 12574.8
+      }
+    ]
+  },
+  {
+    "id": "OFF10",
+    "module": "03-offer",
+    "title": "Tie price to agreed scope",
+    "trigger": "The rep presents a number without connecting it to the actual purchase.",
+    "action": "Summarize deliverables, effort, duration, and total terms using approved facts.",
+    "suggested_dialogue": "For [confirmed scope], the total is [approved amount], with [terms]. Would it help to compare the available options?",
+    "branches": "If scope is wrong, correct it first; if price is the concern, diagnose it.",
+    "practice": "The buyer can identify what the price covers and excludes.",
+    "do_not_apply": "Check arithmetic; do not reproduce erroneous source calculations or guaranteed outcome timelines.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 922,
+        "end_line": 976
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5229,
+        "end_line": 5457,
+        "start_seconds": 10101.1,
+        "end_seconds": 10524.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 6001,
+        "end_line": 6500,
+        "start_seconds": 11574.7,
+        "end_seconds": 12574.8
+      }
+    ]
+  },
+  {
+    "id": "OBJ01",
+    "module": "04-objection-diagnosis",
+    "title": "A reaction is not yet an objection",
+    "trigger": "The buyer says that is expensive or pauses without rejecting the offer.",
+    "action": "Allow the buyer to finish and ask what the reaction means.",
+    "suggested_dialogue": "What is the main concern with that price?",
+    "branches": "If value, explore expected benefit; if affordability, discuss fit and approved options.",
+    "practice": "Obtain the concern before giving a rebuttal.",
+    "do_not_apply": "Do not treat an absent response on a bad line as resistance.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 977,
+        "end_line": 1207
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2226,
+        "end_line": 2337,
+        "start_seconds": 4564.0,
+        "end_seconds": 4788.8
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2716,
+        "end_line": 2742,
+        "start_seconds": 5487.1,
+        "end_seconds": 5547.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5501,
+        "end_line": 5582,
+        "start_seconds": 10605.2,
+        "end_seconds": 10753.4
+      }
+    ]
+  },
+  {
+    "id": "OBJ02",
+    "module": "04-objection-diagnosis",
+    "title": "Confirm the concern accurately",
+    "trigger": "The rep answers a different objection from the one stated.",
+    "action": "Briefly restate the concern before offering information.",
+    "suggested_dialogue": "The concern is paying again without implementation support. Is that right?",
+    "branches": "If confirmed, address that risk; if corrected, change the response.",
+    "practice": "One accurate restatement precedes the explanation.",
+    "do_not_apply": "Do not relabel a clear requirement as fear or lack of belief.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 977,
+        "end_line": 1207
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2226,
+        "end_line": 2337,
+        "start_seconds": 4564.0,
+        "end_seconds": 4788.8
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2716,
+        "end_line": 2742,
+        "start_seconds": 5487.1,
+        "end_seconds": 5547.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5501,
+        "end_line": 5582,
+        "start_seconds": 10605.2,
+        "end_seconds": 10753.4
+      }
+    ]
+  },
+  {
+    "id": "OBJ03",
+    "module": "04-objection-diagnosis",
+    "title": "Find the unresolved decision",
+    "trigger": "The buyer says they need to think without identifying a topic.",
+    "action": "Ask what needs to become clear for a decision.",
+    "suggested_dialogue": "What part needs more thought: the fit, the commitment, or something else?",
+    "branches": "If specific, address it; if they want private time, respect that and offer an optional follow-up.",
+    "practice": "Name the unresolved question or accept the request for time.",
+    "do_not_apply": "The buyer does not owe a hidden objection.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 977,
+        "end_line": 1207
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2226,
+        "end_line": 2337,
+        "start_seconds": 4564.0,
+        "end_seconds": 4788.8
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2716,
+        "end_line": 2742,
+        "start_seconds": 5487.1,
+        "end_seconds": 5547.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5501,
+        "end_line": 5582,
+        "start_seconds": 10605.2,
+        "end_seconds": 10753.4
+      }
+    ]
+  },
+  {
+    "id": "OBJ04",
+    "module": "04-objection-diagnosis",
+    "title": "Check whether the offer is wanted",
+    "trigger": "The rep negotiates payment while the buyer does not see a useful solution.",
+    "action": "Separate desire for the solution from its terms.",
+    "suggested_dialogue": "Leaving the payment structure aside for a moment, does the actual service solve the right problem?",
+    "branches": "If no, revisit fit; if yes, diagnose terms.",
+    "practice": "Avoid payment negotiation before basic fit is established.",
+    "do_not_apply": "A hypothetical yes is not permission to charge.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 977,
+        "end_line": 1207
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2226,
+        "end_line": 2337,
+        "start_seconds": 4564.0,
+        "end_seconds": 4788.8
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2716,
+        "end_line": 2742,
+        "start_seconds": 5487.1,
+        "end_seconds": 5547.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5501,
+        "end_line": 5582,
+        "start_seconds": 10605.2,
+        "end_seconds": 10753.4
+      }
+    ]
+  },
+  {
+    "id": "OBJ05",
+    "module": "04-objection-diagnosis",
+    "title": "Separate multiple concerns",
+    "trigger": "Several concerns emerge and the rep answers whichever is easiest.",
+    "action": "List them briefly and ask which needs resolving first.",
+    "suggested_dialogue": "There are two issues: attendance and ongoing support. Which should be settled first?",
+    "branches": "If one blocks everything, handle it first; if either is a fit failure, do not stack closes.",
+    "practice": "Keep a visible list of unresolved issues and mark only buyer-confirmed resolutions.",
+    "do_not_apply": "Do not use isolation to demand a premature buying promise.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 977,
+        "end_line": 1207
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2226,
+        "end_line": 2337,
+        "start_seconds": 4564.0,
+        "end_seconds": 4788.8
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2716,
+        "end_line": 2742,
+        "start_seconds": 5487.1,
+        "end_seconds": 5547.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5501,
+        "end_line": 5582,
+        "start_seconds": 10605.2,
+        "end_seconds": 10753.4
+      }
+    ]
+  },
+  {
+    "id": "OBJ06",
+    "module": "04-objection-diagnosis",
+    "title": "Acknowledge without invented association",
+    "trigger": "The rep tries to build agreement by claiming other clients felt the same.",
+    "action": "Acknowledge the concern directly; use a real approved example only if available.",
+    "suggested_dialogue": "It makes sense to check who will do the work after the meeting. Here is the confirmed scope.",
+    "branches": "If the buyer accepts the answer, ask the appropriate next question; otherwise clarify.",
+    "practice": "No invented customer or personal experience appears in the response.",
+    "do_not_apply": "The video's association step is not permission to fabricate social proof.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 977,
+        "end_line": 1207
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2226,
+        "end_line": 2337,
+        "start_seconds": 4564.0,
+        "end_seconds": 4788.8
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2716,
+        "end_line": 2742,
+        "start_seconds": 5487.1,
+        "end_seconds": 5547.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5501,
+        "end_line": 5582,
+        "start_seconds": 10605.2,
+        "end_seconds": 10753.4
+      }
+    ]
+  },
+  {
+    "id": "OBJ07",
+    "module": "04-objection-diagnosis",
+    "title": "Ask permission before challenging a frame",
+    "trigger": "The buyer's assumption may be incomplete but the rep becomes argumentative.",
+    "action": "Ask permission to offer a factual alternative, then check it.",
+    "suggested_dialogue": "Would it help to look at one other way of comparing the options?",
+    "branches": "If yes, show the relevant fact; if no, stop pushing the reframe.",
+    "practice": "One offered perspective followed by a buyer response.",
+    "do_not_apply": "Do not shame spending choices or attack identity.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 977,
+        "end_line": 1207
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2226,
+        "end_line": 2337,
+        "start_seconds": 4564.0,
+        "end_seconds": 4788.8
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2716,
+        "end_line": 2742,
+        "start_seconds": 5487.1,
+        "end_seconds": 5547.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5501,
+        "end_line": 5582,
+        "start_seconds": 10605.2,
+        "end_seconds": 10753.4
+      }
+    ]
+  },
+  {
+    "id": "OBJ08",
+    "module": "04-objection-diagnosis",
+    "title": "Check whether the answer resolved anything",
+    "trigger": "The rep delivers a rebuttal and immediately starts another.",
+    "action": "Ask whether the information addresses the specific concern.",
+    "suggested_dialogue": "Does that answer the support question, or is something still missing?",
+    "branches": "If resolved, invite the next step; if not, investigate what remains.",
+    "practice": "The buyer, not the rep, confirms resolution.",
+    "do_not_apply": "Do not assume silence or politeness means agreement.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 977,
+        "end_line": 1207
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2226,
+        "end_line": 2337,
+        "start_seconds": 4564.0,
+        "end_seconds": 4788.8
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2716,
+        "end_line": 2742,
+        "start_seconds": 5487.1,
+        "end_seconds": 5547.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5501,
+        "end_line": 5582,
+        "start_seconds": 10605.2,
+        "end_seconds": 10753.4
+      }
+    ]
+  },
+  {
+    "id": "OBJ09",
+    "module": "04-objection-diagnosis",
+    "title": "Re-ask only after progress",
+    "trigger": "The rep repeats the buying request without adding useful information.",
+    "action": "Make another stage-appropriate invitation only after a concern is addressed and the buyer remains engaged.",
+    "suggested_dialogue": "With that clarified, would the next meeting be useful?",
+    "branches": "If ready, act; if not, identify the remaining issue or respect the decline.",
+    "practice": "Each renewed ask follows a specific resolved concern.",
+    "do_not_apply": "Repeated asks alone are not a coaching technique.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 977,
+        "end_line": 1207
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2226,
+        "end_line": 2337,
+        "start_seconds": 4564.0,
+        "end_seconds": 4788.8
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2716,
+        "end_line": 2742,
+        "start_seconds": 5487.1,
+        "end_seconds": 5547.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5501,
+        "end_line": 5582,
+        "start_seconds": 10605.2,
+        "end_seconds": 10753.4
+      }
+    ]
+  },
+  {
+    "id": "OBJ10",
+    "module": "04-objection-diagnosis",
+    "title": "Recognize a useful no",
+    "trigger": "The buyer clearly declines, opts out, or has an unmet must-have.",
+    "action": "Confirm the mismatch or decision and close respectfully.",
+    "suggested_dialogue": "It sounds like this does not fit the support needed. Thanks for clarifying that.",
+    "branches": "If the buyer requests an alternative, discuss verified options; if not, end.",
+    "practice": "Do not add a new sales loop after a clear final refusal.",
+    "do_not_apply": "Not every lost sale is a rep failure.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 977,
+        "end_line": 1207
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2226,
+        "end_line": 2337,
+        "start_seconds": 4564.0,
+        "end_seconds": 4788.8
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2716,
+        "end_line": 2742,
+        "start_seconds": 5487.1,
+        "end_seconds": 5547.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5501,
+        "end_line": 5582,
+        "start_seconds": 10605.2,
+        "end_seconds": 10753.4
+      }
+    ]
+  },
+  {
+    "id": "MON01",
+    "module": "05-money-risk",
+    "title": "Separate affordability from value",
+    "trigger": "The buyer says they cannot afford it.",
+    "action": "Ask whether the issue is available funds, timing, or whether the result merits the cost.",
+    "suggested_dialogue": "Is the difficulty the available budget, when funds are available, or whether this is worth the price?",
+    "branches": "If budget is absent, respect it; if value is unclear, revisit the problem-to-offer link.",
+    "practice": "Choose one money branch using the buyer's answer.",
+    "do_not_apply": "Do not assume everyone can find the money.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 986,
+        "end_line": 1035
+      },
+      {
+        "source_id": "H1",
+        "start_line": 1045,
+        "end_line": 1207
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2744,
+        "end_line": 3078,
+        "start_seconds": 5551.0,
+        "end_seconds": 6199.1
+      },
+      {
+        "source_id": "V2",
+        "start_line": 459,
+        "end_line": 1015,
+        "start_seconds": 973.8,
+        "end_seconds": 2099.9
+      }
+    ]
+  },
+  {
+    "id": "MON02",
+    "module": "05-money-risk",
+    "title": "Handle genuine budget limits",
+    "trigger": "The buyer confirms that the purchase is outside available resources.",
+    "action": "Offer only an appropriate approved lower-scope option or a future conversation if wanted.",
+    "suggested_dialogue": "Given that limit, this option may not fit. Would a smaller approved scope be useful to compare?",
+    "branches": "If no suitable option, end cleanly; if one exists, explain changed scope.",
+    "practice": "No recommendation to sacrifice essentials or take debt to force a sale.",
+    "do_not_apply": "Motivational source analogies are not financial guidance.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 986,
+        "end_line": 1035
+      },
+      {
+        "source_id": "H1",
+        "start_line": 1045,
+        "end_line": 1207
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2744,
+        "end_line": 3078,
+        "start_seconds": 5551.0,
+        "end_seconds": 6199.1
+      },
+      {
+        "source_id": "V2",
+        "start_line": 459,
+        "end_line": 1015,
+        "start_seconds": 973.8,
+        "end_seconds": 2099.9
+      }
+    ]
+  },
+  {
+    "id": "MON03",
+    "module": "05-money-risk",
+    "title": "Handle cash timing",
+    "trigger": "The buyer wants the offer and identifies a concrete funding date.",
+    "action": "Clarify timing and use only documented payment or follow-up options.",
+    "suggested_dialogue": "When will the decision and funds be available, and would a check-in then be useful?",
+    "branches": "If an approved arrangement fits, explain total terms; if not, follow up at the agreed time.",
+    "practice": "Record date, purpose, and conditions rather than an assumed commitment.",
+    "do_not_apply": "Do not invent a delayed charge or refundable deposit.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 986,
+        "end_line": 1035
+      },
+      {
+        "source_id": "H1",
+        "start_line": 1045,
+        "end_line": 1207
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2744,
+        "end_line": 3078,
+        "start_seconds": 5551.0,
+        "end_seconds": 6199.1
+      },
+      {
+        "source_id": "V2",
+        "start_line": 459,
+        "end_line": 1015,
+        "start_seconds": 973.8,
+        "end_seconds": 2099.9
+      }
+    ]
+  },
+  {
+    "id": "MON04",
+    "module": "05-money-risk",
+    "title": "Rebuild the value explanation",
+    "trigger": "The buyer cannot connect the offer to a worthwhile business change.",
+    "action": "Return to the confirmed problem and explain the actual mechanism.",
+    "suggested_dialogue": "The service only makes sense if [verified capability] helps with [stated bottleneck]. Is that connection clear?",
+    "branches": "If unclear, explain or admit mismatch; if clear, explore the remaining concern.",
+    "practice": "Use the buyer's goal instead of a generic value multiple.",
+    "do_not_apply": "No guaranteed ROI or invented income increase.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 986,
+        "end_line": 1035
+      },
+      {
+        "source_id": "H1",
+        "start_line": 1045,
+        "end_line": 1207
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2744,
+        "end_line": 3078,
+        "start_seconds": 5551.0,
+        "end_seconds": 6199.1
+      },
+      {
+        "source_id": "V2",
+        "start_line": 459,
+        "end_line": 1015,
+        "start_seconds": 973.8,
+        "end_seconds": 2099.9
+      }
+    ]
+  },
+  {
+    "id": "MON05",
+    "module": "05-money-risk",
+    "title": "Address a previous bad purchase",
+    "trigger": "The buyer has paid for something similar that disappointed.",
+    "action": "Ask what was promised, what happened, and what evidence would distinguish this offer.",
+    "suggested_dialogue": "What was missing last time that would need to be different here?",
+    "branches": "If the same limitation exists, disclose it; if different, show verified scope or proof.",
+    "practice": "Name the actual difference and its evidence.",
+    "do_not_apply": "Do not blame the buyer for not believing enough.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 986,
+        "end_line": 1035
+      },
+      {
+        "source_id": "H1",
+        "start_line": 1045,
+        "end_line": 1207
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2744,
+        "end_line": 3078,
+        "start_seconds": 5551.0,
+        "end_seconds": 6199.1
+      },
+      {
+        "source_id": "V2",
+        "start_line": 459,
+        "end_line": 1015,
+        "start_seconds": 973.8,
+        "end_seconds": 2099.9
+      }
+    ]
+  },
+  {
+    "id": "MON06",
+    "module": "05-money-risk",
+    "title": "Make guarantees precise",
+    "trigger": "The rep uses risk-free language or a vague guarantee.",
+    "action": "State actual eligibility, conditions, remedy, exclusions, and who confirms them.",
+    "suggested_dialogue": "The guarantee covers [approved remedy] under [conditions]. It does not remove the time required.",
+    "branches": "If terms are unavailable, verify before claiming coverage; if excluded, say so.",
+    "practice": "The replacement script contains no broader promise than the approved terms.",
+    "do_not_apply": "A refund policy does not eliminate all risk.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 986,
+        "end_line": 1035
+      },
+      {
+        "source_id": "H1",
+        "start_line": 1045,
+        "end_line": 1207
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2744,
+        "end_line": 3078,
+        "start_seconds": 5551.0,
+        "end_seconds": 6199.1
+      },
+      {
+        "source_id": "V2",
+        "start_line": 459,
+        "end_line": 1015,
+        "start_seconds": 973.8,
+        "end_seconds": 2099.9
+      }
+    ]
+  },
+  {
+    "id": "MON07",
+    "module": "05-money-risk",
+    "title": "Compare the cost of waiting honestly",
+    "trigger": "The rep claims waiting will definitely cost a specific sum.",
+    "action": "Use known current costs and disclose uncertainty about the future.",
+    "suggested_dialogue": "If this continues at the current measured rate, the estimated cost is [calculation]. What might change that?",
+    "branches": "If inputs are uncertain, show a range or omit the number; if reliable, compare options.",
+    "practice": "Show the inputs and arithmetic behind any estimate.",
+    "do_not_apply": "Do not guarantee either deterioration or improvement.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 986,
+        "end_line": 1035
+      },
+      {
+        "source_id": "H1",
+        "start_line": 1045,
+        "end_line": 1207
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2744,
+        "end_line": 3078,
+        "start_seconds": 5551.0,
+        "end_seconds": 6199.1
+      },
+      {
+        "source_id": "V2",
+        "start_line": 459,
+        "end_line": 1015,
+        "start_seconds": 973.8,
+        "end_seconds": 2099.9
+      }
+    ]
+  },
+  {
+    "id": "MON08",
+    "module": "05-money-risk",
+    "title": "Present approved payment choices clearly",
+    "trigger": "The rep improvises discounts or obscures the total commitment.",
+    "action": "Show approved total price, installment amounts, fees, and timing side by side.",
+    "suggested_dialogue": "The approved options are [A total and schedule] or [B total and schedule]. Which, if either, fits?",
+    "branches": "If neither fits, stop; if one fits, confirm the full terms.",
+    "practice": "The buyer can distinguish payment amount from total price.",
+    "do_not_apply": "Do not relabel financing costs to hide them.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 986,
+        "end_line": 1035
+      },
+      {
+        "source_id": "H1",
+        "start_line": 1045,
+        "end_line": 1207
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2744,
+        "end_line": 3078,
+        "start_seconds": 5551.0,
+        "end_seconds": 6199.1
+      },
+      {
+        "source_id": "V2",
+        "start_line": 459,
+        "end_line": 1015,
+        "start_seconds": 973.8,
+        "end_seconds": 2099.9
+      }
+    ]
+  },
+  {
+    "id": "MON09",
+    "module": "05-money-risk",
+    "title": "Downscope without pretending equivalence",
+    "trigger": "A smaller offer is available for a buyer with a narrower need or budget.",
+    "action": "Explain exactly what is removed and what outcome remains supported.",
+    "suggested_dialogue": "This smaller option includes [scope] and excludes [scope]. Would that still solve the priority issue?",
+    "branches": "If essential support is removed, do not recommend it; if sufficient, compare honestly.",
+    "practice": "State one meaningful tradeoff before offering the lower price.",
+    "do_not_apply": "A discount is not an automatic substitute for a fit diagnosis.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 986,
+        "end_line": 1035
+      },
+      {
+        "source_id": "H1",
+        "start_line": 1045,
+        "end_line": 1207
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2744,
+        "end_line": 3078,
+        "start_seconds": 5551.0,
+        "end_seconds": 6199.1
+      },
+      {
+        "source_id": "V2",
+        "start_line": 459,
+        "end_line": 1015,
+        "start_seconds": 973.8,
+        "end_seconds": 2099.9
+      }
+    ]
+  },
+  {
+    "id": "MON10",
+    "module": "05-money-risk",
+    "title": "Turn vague fear into a checkable risk",
+    "trigger": "The buyer worries the purchase will not work but cannot name why.",
+    "action": "Ask which failure they are concerned about and what would reduce uncertainty.",
+    "suggested_dialogue": "What is the outcome the buyer most wants to avoid here?",
+    "branches": "If evidence can address it, provide it; if uncertainty remains, acknowledge it.",
+    "practice": "Identify a specific risk and an appropriate evidence request.",
+    "do_not_apply": "Do not describe all hesitation as irrational fear.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 986,
+        "end_line": 1035
+      },
+      {
+        "source_id": "H1",
+        "start_line": 1045,
+        "end_line": 1207
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2744,
+        "end_line": 3078,
+        "start_seconds": 5551.0,
+        "end_seconds": 6199.1
+      },
+      {
+        "source_id": "V2",
+        "start_line": 459,
+        "end_line": 1015,
+        "start_seconds": 973.8,
+        "end_seconds": 2099.9
+      }
+    ]
+  },
+  {
+    "id": "TIM01",
+    "module": "06-time-authority",
+    "title": "Separate calendar from capacity",
+    "trigger": "The buyer says not now.",
+    "action": "Ask whether the obstacle is a date conflict, time to implement, or a decision still being evaluated.",
+    "suggested_dialogue": "Is the issue attending on that date, doing the work afterward, or deciding whether to proceed?",
+    "branches": "If date, check approved availability; if capacity, map effort; if decision, clarify criteria.",
+    "practice": "Choose the next question from the actual timing subtype.",
+    "do_not_apply": "Do not dismiss all time constraints as priorities.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 986,
+        "end_line": 1035
+      },
+      {
+        "source_id": "H1",
+        "start_line": 1208,
+        "end_line": 1232
+      },
+      {
+        "source_id": "V2",
+        "start_line": 1016,
+        "end_line": 1884,
+        "start_seconds": 2102.0,
+        "end_seconds": 3799.1
+      },
+      {
+        "source_id": "V2",
+        "start_line": 3134,
+        "end_line": 3229,
+        "start_seconds": 6235.7,
+        "end_seconds": 6417.7
+      }
+    ]
+  },
+  {
+    "id": "TIM02",
+    "module": "06-time-authority",
+    "title": "Plan around real workload",
+    "trigger": "The buyer cannot assign staff or hours to implementation.",
+    "action": "Clarify the actual work and available capacity before recommending a start.",
+    "suggested_dialogue": "Who would own the first step, and when could they realistically do it?",
+    "branches": "If no owner or capacity, defer or change scope; if available, document the plan.",
+    "practice": "Identify owner and capacity without inventing a time-saving feature.",
+    "do_not_apply": "Buying does not automatically create implementation time.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 986,
+        "end_line": 1035
+      },
+      {
+        "source_id": "H1",
+        "start_line": 1208,
+        "end_line": 1232
+      },
+      {
+        "source_id": "V2",
+        "start_line": 1016,
+        "end_line": 1884,
+        "start_seconds": 2102.0,
+        "end_seconds": 3799.1
+      },
+      {
+        "source_id": "V2",
+        "start_line": 3134,
+        "end_line": 3229,
+        "start_seconds": 6235.7,
+        "end_seconds": 6417.7
+      }
+    ]
+  },
+  {
+    "id": "TIM03",
+    "module": "06-time-authority",
+    "title": "Distinguish seasonal delay",
+    "trigger": "The buyer cites a busy season or major event.",
+    "action": "Ask what changes afterward and whether any preparation is useful now.",
+    "suggested_dialogue": "What becomes possible after that period that is not possible today?",
+    "branches": "If a real change exists, plan around it; if uncertain, explore rather than accuse.",
+    "practice": "Record the actual change that makes a later date useful.",
+    "do_not_apply": "Do not assume waiting is avoidance.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 986,
+        "end_line": 1035
+      },
+      {
+        "source_id": "H1",
+        "start_line": 1208,
+        "end_line": 1232
+      },
+      {
+        "source_id": "V2",
+        "start_line": 1016,
+        "end_line": 1884,
+        "start_seconds": 2102.0,
+        "end_seconds": 3799.1
+      },
+      {
+        "source_id": "V2",
+        "start_line": 3134,
+        "end_line": 3229,
+        "start_seconds": 6235.7,
+        "end_seconds": 6417.7
+      }
+    ]
+  },
+  {
+    "id": "TIM04",
+    "module": "06-time-authority",
+    "title": "Verify prerequisites",
+    "trigger": "The buyer must hire, secure approval, or complete another project first.",
+    "action": "Determine whether the prerequisite truly affects delivery or purchase.",
+    "suggested_dialogue": "Which part of this depends on that being finished?",
+    "branches": "If necessary, sequence it first; if not necessary, explain the verified independence.",
+    "practice": "Draw a simple dependency before recommending a start.",
+    "do_not_apply": "Do not invent urgency to bypass a real dependency.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 986,
+        "end_line": 1035
+      },
+      {
+        "source_id": "H1",
+        "start_line": 1208,
+        "end_line": 1232
+      },
+      {
+        "source_id": "V2",
+        "start_line": 1016,
+        "end_line": 1884,
+        "start_seconds": 2102.0,
+        "end_seconds": 3799.1
+      },
+      {
+        "source_id": "V2",
+        "start_line": 3134,
+        "end_line": 3229,
+        "start_seconds": 6235.7,
+        "end_seconds": 6417.7
+      }
+    ]
+  },
+  {
+    "id": "TIM05",
+    "module": "06-time-authority",
+    "title": "Respect time to decide",
+    "trigger": "The buyer needs to compare options or review terms.",
+    "action": "Identify the needed information and agree a reasonable decision process.",
+    "suggested_dialogue": "What information should be available before the next conversation is worthwhile?",
+    "branches": "If requested, provide it; if no follow-up wanted, leave the decision with the buyer.",
+    "practice": "A follow-up has a reason beyond asking again.",
+    "do_not_apply": "Time for research is different from time to implement.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 986,
+        "end_line": 1035
+      },
+      {
+        "source_id": "H1",
+        "start_line": 1208,
+        "end_line": 1232
+      },
+      {
+        "source_id": "V2",
+        "start_line": 1016,
+        "end_line": 1884,
+        "start_seconds": 2102.0,
+        "end_seconds": 3799.1
+      },
+      {
+        "source_id": "V2",
+        "start_line": 3134,
+        "end_line": 3229,
+        "start_seconds": 6235.7,
+        "end_seconds": 6417.7
+      }
+    ]
+  },
+  {
+    "id": "TIM06",
+    "module": "06-time-authority",
+    "title": "Map the other decision-maker",
+    "trigger": "The buyer says a partner, spouse, or manager must be involved.",
+    "action": "Clarify their role and what they need to evaluate.",
+    "suggested_dialogue": "What part of the decision will they own, and what questions will they want answered?",
+    "branches": "If joint decision, include them; if delegated authority, confirm the buyer's scope.",
+    "practice": "Name each participant's decision role without assuming opposition.",
+    "do_not_apply": "Never suggest concealing a purchase or bypassing shared authority.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 986,
+        "end_line": 1035
+      },
+      {
+        "source_id": "H1",
+        "start_line": 1208,
+        "end_line": 1232
+      },
+      {
+        "source_id": "V2",
+        "start_line": 1016,
+        "end_line": 1884,
+        "start_seconds": 2102.0,
+        "end_seconds": 3799.1
+      },
+      {
+        "source_id": "V2",
+        "start_line": 3134,
+        "end_line": 3229,
+        "start_seconds": 6235.7,
+        "end_seconds": 6417.7
+      }
+    ]
+  },
+  {
+    "id": "TIM07",
+    "module": "06-time-authority",
+    "title": "Equip a champion without guessing",
+    "trigger": "The buyer will relay the offer internally.",
+    "action": "Create a factual summary of problem, scope, terms, evidence, and open questions.",
+    "suggested_dialogue": "What would make this summary useful for that conversation?",
+    "branches": "If they need a specialist, offer one if available; if summary suffices, keep it short.",
+    "practice": "The summary contains no invented stakeholder objections.",
+    "do_not_apply": "Do not make the buyer promise someone else's approval.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 986,
+        "end_line": 1035
+      },
+      {
+        "source_id": "H1",
+        "start_line": 1208,
+        "end_line": 1232
+      },
+      {
+        "source_id": "V2",
+        "start_line": 1016,
+        "end_line": 1884,
+        "start_seconds": 2102.0,
+        "end_seconds": 3799.1
+      },
+      {
+        "source_id": "V2",
+        "start_line": 3134,
+        "end_line": 3229,
+        "start_seconds": 6235.7,
+        "end_seconds": 6417.7
+      }
+    ]
+  },
+  {
+    "id": "TIM08",
+    "module": "06-time-authority",
+    "title": "Book the stakeholder conversation",
+    "trigger": "Progress requires another participant and the buyer wants to continue.",
+    "action": "Agree purpose, attendees, preparation, and a feasible time.",
+    "suggested_dialogue": "Would a short meeting with the implementation owner help settle the support question?",
+    "branches": "If yes, propose actual available times; if no, agree an appropriate alternative.",
+    "practice": "The next meeting has a decision to make and the right people present.",
+    "do_not_apply": "Do not count an unaccepted invite as a confirmed meeting.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 986,
+        "end_line": 1035
+      },
+      {
+        "source_id": "H1",
+        "start_line": 1208,
+        "end_line": 1232
+      },
+      {
+        "source_id": "V2",
+        "start_line": 1016,
+        "end_line": 1884,
+        "start_seconds": 2102.0,
+        "end_seconds": 3799.1
+      },
+      {
+        "source_id": "V2",
+        "start_line": 3134,
+        "end_line": 3229,
+        "start_seconds": 6235.7,
+        "end_seconds": 6417.7
+      }
+    ]
+  },
+  {
+    "id": "TIM09",
+    "module": "06-time-authority",
+    "title": "Handle procurement as a process",
+    "trigger": "An enterprise deal needs security, legal, budget, or procurement review.",
+    "action": "Map milestones, owners, evidence, and dependencies instead of forcing a one-call close.",
+    "suggested_dialogue": "What must be approved, by whom, before a purchase can happen?",
+    "branches": "If review is defined, support it; if unclear, find the process owner.",
+    "practice": "Document the next verifiable milestone and owner.",
+    "do_not_apply": "A required review is not automatically a stall.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 986,
+        "end_line": 1035
+      },
+      {
+        "source_id": "H1",
+        "start_line": 1208,
+        "end_line": 1232
+      },
+      {
+        "source_id": "V2",
+        "start_line": 1016,
+        "end_line": 1884,
+        "start_seconds": 2102.0,
+        "end_seconds": 3799.1
+      },
+      {
+        "source_id": "V2",
+        "start_line": 3134,
+        "end_line": 3229,
+        "start_seconds": 6235.7,
+        "end_seconds": 6417.7
+      }
+    ]
+  },
+  {
+    "id": "TIM10",
+    "module": "06-time-authority",
+    "title": "Keep availability truthful",
+    "trigger": "The rep claims scarcity or deadlines to overcome timing concerns.",
+    "action": "Use only verified capacity, dates, and expiration terms.",
+    "suggested_dialogue": "The confirmed opening is [date]. If it does not fit, the team can check later availability.",
+    "branches": "If no verified deadline, omit urgency; if real, explain its basis.",
+    "practice": "Every urgency statement has a current factual basis.",
+    "do_not_apply": "Do not use historical course dates or fake busy calendars.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 986,
+        "end_line": 1035
+      },
+      {
+        "source_id": "H1",
+        "start_line": 1208,
+        "end_line": 1232
+      },
+      {
+        "source_id": "V2",
+        "start_line": 1016,
+        "end_line": 1884,
+        "start_seconds": 2102.0,
+        "end_seconds": 3799.1
+      },
+      {
+        "source_id": "V2",
+        "start_line": 3134,
+        "end_line": 3229,
+        "start_seconds": 6235.7,
+        "end_seconds": 6417.7
+      }
+    ]
+  },
+  {
+    "id": "CLS01",
+    "module": "07-close-handoff",
+    "title": "Ask for the next appropriate commitment",
+    "trigger": "The rep gives useful information but never invites a decision.",
+    "action": "Make one clear request matched to the call's purpose.",
+    "suggested_dialogue": "Would it make sense to book the specialist conversation?",
+    "branches": "If yes, arrange it; if concern, address that concern; if no, respect it.",
+    "practice": "One unambiguous stage-appropriate ask appears.",
+    "do_not_apply": "A setter does not need to ask for payment.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 1208,
+        "end_line": 1329
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5561,
+        "end_line": 5582,
+        "start_seconds": 10717.5,
+        "end_seconds": 10753.4
+      },
+      {
+        "source_id": "V2",
+        "start_line": 8002,
+        "end_line": 8233,
+        "start_seconds": 15630.7,
+        "end_seconds": 16064.1
+      }
+    ]
+  },
+  {
+    "id": "CLS02",
+    "module": "07-close-handoff",
+    "title": "Leave room after the ask",
+    "trigger": "The rep answers their own question or adds a second pitch before a response.",
+    "action": "End the request and wait for the buyer's answer.",
+    "suggested_dialogue": "Would the next step be useful? [wait]",
+    "branches": "If they answer, follow the answer; if the line is unclear, check the connection.",
+    "practice": "In practice, the rep stops speaking after the ask.",
+    "do_not_apply": "Do not claim an exact original pause length without reliable audio timing.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 1208,
+        "end_line": 1329
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5561,
+        "end_line": 5582,
+        "start_seconds": 10717.5,
+        "end_seconds": 10753.4
+      },
+      {
+        "source_id": "V2",
+        "start_line": 8002,
+        "end_line": 8233,
+        "start_seconds": 15630.7,
+        "end_seconds": 16064.1
+      }
+    ]
+  },
+  {
+    "id": "CLS03",
+    "module": "07-close-handoff",
+    "title": "Stop reselling after yes",
+    "trigger": "The buyer agrees and the rep introduces new objections with extra pitch.",
+    "action": "Move to the agreed action and confirm practical details.",
+    "suggested_dialogue": "Great. The next action is [agreed step]. Here is what is needed to complete it.",
+    "branches": "If a new concern appears, answer it; otherwise complete the action.",
+    "practice": "No new benefit monologue follows an unambiguous yes.",
+    "do_not_apply": "A yes to learning more is not a yes to purchase.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 1208,
+        "end_line": 1329
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5561,
+        "end_line": 5582,
+        "start_seconds": 10717.5,
+        "end_seconds": 10753.4
+      },
+      {
+        "source_id": "V2",
+        "start_line": 8002,
+        "end_line": 8233,
+        "start_seconds": 15630.7,
+        "end_seconds": 16064.1
+      }
+    ]
+  },
+  {
+    "id": "CLS04",
+    "module": "07-close-handoff",
+    "title": "Distinguish intent from completion",
+    "trigger": "The buyer says an assistant will pay later and the rep calls it closed.",
+    "action": "Record the promise separately from actual payment or booking confirmation.",
+    "suggested_dialogue": "The link is sent; payment is still pending. Once confirmed, the team can complete the booking.",
+    "branches": "If paid is verified, mark it accordingly; if promised only, keep pending.",
+    "practice": "State exactly what was observed, promised, or independently confirmed.",
+    "do_not_apply": "A buyer saying good sale is not proof of collected cash.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 1208,
+        "end_line": 1329
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5561,
+        "end_line": 5582,
+        "start_seconds": 10717.5,
+        "end_seconds": 10753.4
+      },
+      {
+        "source_id": "V2",
+        "start_line": 8002,
+        "end_line": 8233,
+        "start_seconds": 15630.7,
+        "end_seconds": 16064.1
+      }
+    ]
+  },
+  {
+    "id": "CLS05",
+    "module": "07-close-handoff",
+    "title": "Use secure purchase steps",
+    "trigger": "The buyer is ready to pay and a payment workflow is needed.",
+    "action": "Direct them to the business's approved secure payment channel.",
+    "suggested_dialogue": "The approved secure link handles payment. No card details need to be shared in this chat.",
+    "branches": "If the link fails, use approved support; if uncertain, verify the destination.",
+    "practice": "No card number, security code, or identity document is requested by the coach.",
+    "do_not_apply": "Do not copy source advice about collecting a card before informed agreement.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 1208,
+        "end_line": 1329
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5561,
+        "end_line": 5582,
+        "start_seconds": 10717.5,
+        "end_seconds": 10753.4
+      },
+      {
+        "source_id": "V2",
+        "start_line": 8002,
+        "end_line": 8233,
+        "start_seconds": 15630.7,
+        "end_seconds": 16064.1
+      }
+    ]
+  },
+  {
+    "id": "CLS06",
+    "module": "07-close-handoff",
+    "title": "Book a useful follow-up",
+    "trigger": "The call ends with send something or talk later.",
+    "action": "Agree the purpose, participants, day, time, timezone, and preparation if the buyer wants a meeting.",
+    "suggested_dialogue": "The next call would settle [open issue]. What time works with the necessary participant?",
+    "branches": "If agreed, confirm invite receipt when observable; if declined, do not force it.",
+    "practice": "A follow-up has a specific unresolved question and accepted time.",
+    "do_not_apply": "Do not mutate a calendar or CRM without separate authorization.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 1208,
+        "end_line": 1329
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5561,
+        "end_line": 5582,
+        "start_seconds": 10717.5,
+        "end_seconds": 10753.4
+      },
+      {
+        "source_id": "V2",
+        "start_line": 8002,
+        "end_line": 8233,
+        "start_seconds": 15630.7,
+        "end_seconds": 16064.1
+      }
+    ]
+  },
+  {
+    "id": "CLS07",
+    "module": "07-close-handoff",
+    "title": "Hand off the actual context",
+    "trigger": "The buyer must explain the same problem again after buying.",
+    "action": "Pass the confirmed goal, relevant facts, promises, open risks, and next owner through an authorized process.",
+    "suggested_dialogue": "The delivery team should receive the confirmed goal and the commitments made on this call.",
+    "branches": "If handoff is documented, preserve it; if missing, draft the summary for review.",
+    "practice": "The next owner can state the buyer's goal without redoing discovery.",
+    "do_not_apply": "Do not share private call data outside the authorized workflow.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 1208,
+        "end_line": 1329
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5561,
+        "end_line": 5582,
+        "start_seconds": 10717.5,
+        "end_seconds": 10753.4
+      },
+      {
+        "source_id": "V2",
+        "start_line": 8002,
+        "end_line": 8233,
+        "start_seconds": 15630.7,
+        "end_seconds": 16064.1
+      }
+    ]
+  },
+  {
+    "id": "CLS08",
+    "module": "07-close-handoff",
+    "title": "Make onboarding concrete",
+    "trigger": "A buyer says yes but does not know what happens next.",
+    "action": "Explain the first action, owner, timing, and how to get help.",
+    "suggested_dialogue": "Next comes [verified step] from [owner] by [confirmed timing]. If it does not arrive, use [approved contact].",
+    "branches": "If timing is uncertain, verify it; if delivery has started, confirm status.",
+    "practice": "The buyer knows the first action and who owns it.",
+    "do_not_apply": "Do not guess preparation time or arrival dates.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 1208,
+        "end_line": 1329
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5561,
+        "end_line": 5582,
+        "start_seconds": 10717.5,
+        "end_seconds": 10753.4
+      },
+      {
+        "source_id": "V2",
+        "start_line": 8002,
+        "end_line": 8233,
+        "start_seconds": 15630.7,
+        "end_seconds": 16064.1
+      }
+    ]
+  },
+  {
+    "id": "CLS09",
+    "module": "07-close-handoff",
+    "title": "Ask for referrals at the right moment",
+    "trigger": "A satisfied customer expresses appreciation or a referral request is appropriate.",
+    "action": "Ask for a permission-based introduction connected to a relevant need.",
+    "suggested_dialogue": "Is there someone with a similar issue who would welcome an introduction?",
+    "branches": "If yes, let the customer make or authorize it; if no, move on.",
+    "practice": "A referral request is optional and does not delay delivery.",
+    "do_not_apply": "Do not request private contacts without consent or imply referrals are owed.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 1208,
+        "end_line": 1329
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5561,
+        "end_line": 5582,
+        "start_seconds": 10717.5,
+        "end_seconds": 10753.4
+      },
+      {
+        "source_id": "V2",
+        "start_line": 8002,
+        "end_line": 8233,
+        "start_seconds": 15630.7,
+        "end_seconds": 16064.1
+      }
+    ]
+  },
+  {
+    "id": "CLS10",
+    "module": "07-close-handoff",
+    "title": "Reinforce through delivery, not hype",
+    "trigger": "Post-sale uncertainty appears or a team treats payment as the end.",
+    "action": "Confirm expectations and make the first promised experience happen.",
+    "suggested_dialogue": "The most useful reassurance now is completing the agreed first step and confirming who will help.",
+    "branches": "If expectations conflict, resolve them; if aligned, follow through.",
+    "practice": "Check the promised first action rather than adding more motivational pitch.",
+    "do_not_apply": "Do not promise that an onboarding gesture guarantees retention.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 1208,
+        "end_line": 1329
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5561,
+        "end_line": 5582,
+        "start_seconds": 10717.5,
+        "end_seconds": 10753.4
+      },
+      {
+        "source_id": "V2",
+        "start_line": 8002,
+        "end_line": 8233,
+        "start_seconds": 15630.7,
+        "end_seconds": 16064.1
+      }
+    ]
+  },
+  {
+    "id": "DEL01",
+    "module": "08-delivery-script",
+    "title": "Separate words from delivery",
+    "trigger": "The coach attributes a weak outcome to tone from transcript alone.",
+    "action": "Assess wording from text and reserve acoustic judgments for audio.",
+    "suggested_dialogue": "Suggested delivery: ask the short question, then leave space for the answer.",
+    "branches": "If audio exists, inspect the relevant moment; if not, label delivery unobserved.",
+    "practice": "Every tone claim points to audible evidence or is labeled a future instruction.",
+    "do_not_apply": "No invented confidence, sarcasm, pitch, or emotion from text.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 573,
+        "end_line": 762
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2124,
+        "end_line": 2337,
+        "start_seconds": 4350.6,
+        "end_seconds": 4788.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5588,
+        "end_line": 5792,
+        "start_seconds": 10764.8,
+        "end_seconds": 11169.4
+      }
+    ]
+  },
+  {
+    "id": "DEL02",
+    "module": "08-delivery-script",
+    "title": "Use a speakable sentence",
+    "trigger": "The rep's response contains stacked clauses and abstract nouns.",
+    "action": "Rewrite one thought in plain language and end with one question.",
+    "suggested_dialogue": "What happens when the manager is not there?",
+    "branches": "If the answer is concrete, follow it; if vague, ask for an example.",
+    "practice": "Say the line aloud without losing its purpose.",
+    "do_not_apply": "Shorter is useful only if material facts remain intact.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 573,
+        "end_line": 762
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2124,
+        "end_line": 2337,
+        "start_seconds": 4350.6,
+        "end_seconds": 4788.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5588,
+        "end_line": 5792,
+        "start_seconds": 10764.8,
+        "end_seconds": 11169.4
+      }
+    ]
+  },
+  {
+    "id": "DEL03",
+    "module": "08-delivery-script",
+    "title": "Ask one question at a time",
+    "trigger": "The buyer answers only part of a multi-part question.",
+    "action": "Split the question at the decision point.",
+    "suggested_dialogue": "Who owns the training today? [wait]",
+    "branches": "If ownership is clear, ask about process next; if not, explore ownership.",
+    "practice": "The rep waits for one answer before asking the next question.",
+    "do_not_apply": "Do not turn the call into a rigid interrogation.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 573,
+        "end_line": 762
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2124,
+        "end_line": 2337,
+        "start_seconds": 4350.6,
+        "end_seconds": 4788.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5588,
+        "end_line": 5792,
+        "start_seconds": 10764.8,
+        "end_seconds": 11169.4
+      }
+    ]
+  },
+  {
+    "id": "DEL04",
+    "module": "08-delivery-script",
+    "title": "Replace abstract impact questions",
+    "trigger": "The rep repeatedly asks how it impacts the buyer after an impact was stated.",
+    "action": "Use the known impact and ask the next unresolved operational question.",
+    "suggested_dialogue": "Expansion depends on the top rep traveling. What would a new hire need to do independently?",
+    "branches": "If the dependency is confirmed, discuss the capability gap; if corrected, revise.",
+    "practice": "Each follow-up advances beyond the previous answer.",
+    "do_not_apply": "Do not ask the buyer to repeat pain merely to satisfy a script slot.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 573,
+        "end_line": 762
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2124,
+        "end_line": 2337,
+        "start_seconds": 4350.6,
+        "end_seconds": 4788.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5588,
+        "end_line": 5792,
+        "start_seconds": 10764.8,
+        "end_seconds": 11169.4
+      }
+    ]
+  },
+  {
+    "id": "DEL05",
+    "module": "08-delivery-script",
+    "title": "Practice pace for comprehension",
+    "trigger": "The buyer cannot follow a dense explanation and audio supports excessive speed or poor clarity.",
+    "action": "Shorten the passage and rehearse with clear boundaries between ideas.",
+    "suggested_dialogue": "The offer has two relevant parts. First, [part one]. [pause] Second, [part two].",
+    "branches": "If comprehension improves, preserve the change; if not, revise the wording.",
+    "practice": "A listener can accurately repeat the explanation after hearing it.",
+    "do_not_apply": "No universal words-per-minute pass/fail threshold.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 573,
+        "end_line": 762
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2124,
+        "end_line": 2337,
+        "start_seconds": 4350.6,
+        "end_seconds": 4788.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5588,
+        "end_line": 5792,
+        "start_seconds": 10764.8,
+        "end_seconds": 11169.4
+      }
+    ]
+  },
+  {
+    "id": "DEL06",
+    "module": "08-delivery-script",
+    "title": "Use pitch and emphasis deliberately",
+    "trigger": "Audio reveals unclear question boundaries or emphasis that changes meaning.",
+    "action": "Model the intended question and rehearse the specific words in context.",
+    "suggested_dialogue": "What would need to change for the team to handle that without the owner?",
+    "branches": "If it sounds accusatory, simplify and soften; if clear, move to the next skill.",
+    "practice": "Compare the original and practiced phrase for intelligibility and intended meaning.",
+    "do_not_apply": "Pitch measurements alone do not establish persuasion or emotion.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 573,
+        "end_line": 762
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2124,
+        "end_line": 2337,
+        "start_seconds": 4350.6,
+        "end_seconds": 4788.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5588,
+        "end_line": 5792,
+        "start_seconds": 10764.8,
+        "end_seconds": 11169.4
+      }
+    ]
+  },
+  {
+    "id": "DEL07",
+    "module": "08-delivery-script",
+    "title": "Memorize to free attention",
+    "trigger": "The rep reads rigidly and misses a buyer correction.",
+    "action": "Practice the base sequence until familiar, then introduce varied buyer answers.",
+    "suggested_dialogue": "That changes the picture. Let me check the revised understanding.",
+    "branches": "If the rep adapts accurately, continue; if not, rehearse the listening branch.",
+    "practice": "Correctly respond to three different answers without repeating a contradicted premise.",
+    "do_not_apply": "Do not replace an approved live script without review.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 573,
+        "end_line": 762
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2124,
+        "end_line": 2337,
+        "start_seconds": 4350.6,
+        "end_seconds": 4788.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5588,
+        "end_line": 5792,
+        "start_seconds": 10764.8,
+        "end_seconds": 11169.4
+      }
+    ]
+  },
+  {
+    "id": "DEL08",
+    "module": "08-delivery-script",
+    "title": "Rewrite the decision, not just the adjective",
+    "trigger": "A proposed script sounds smoother but makes the same wrong assumption.",
+    "action": "Change the question or branch that caused the problem before polishing tone.",
+    "suggested_dialogue": "The buyer already has reports. Ask what happens after the reports arrive.",
+    "branches": "If the diagnosis changes, rewrite the next branch; if wording alone is unclear, tighten it.",
+    "practice": "Explain which decision the new wording changes.",
+    "do_not_apply": "Do not claim imitation of a trainer's voice is evidence of quality.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 573,
+        "end_line": 762
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2124,
+        "end_line": 2337,
+        "start_seconds": 4350.6,
+        "end_seconds": 4788.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5588,
+        "end_line": 5792,
+        "start_seconds": 10764.8,
+        "end_seconds": 11169.4
+      }
+    ]
+  },
+  {
+    "id": "DEL09",
+    "module": "08-delivery-script",
+    "title": "Keep quote and suggested dialogue distinct",
+    "trigger": "Generated replacement language is presented as if the trainer said it.",
+    "action": "Label the new line as original suggested wording; use only the verified quote bank for attribution.",
+    "suggested_dialogue": "Suggested rep response: [original wording grounded in this call].",
+    "branches": "If an exact verified quote fits, use it briefly; otherwise omit it.",
+    "practice": "No generated script is attributed to the trainer as a quote.",
+    "do_not_apply": "Do not reconstruct unpublished source passages for quotation requests.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 573,
+        "end_line": 762
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2124,
+        "end_line": 2337,
+        "start_seconds": 4350.6,
+        "end_seconds": 4788.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5588,
+        "end_line": 5792,
+        "start_seconds": 10764.8,
+        "end_seconds": 11169.4
+      }
+    ]
+  },
+  {
+    "id": "DEL10",
+    "module": "08-delivery-script",
+    "title": "Recover from losing the script",
+    "trigger": "The rep loses their place and restarts discovery or rambles.",
+    "action": "Return to the last confirmed milestone and identify the next missing fact.",
+    "suggested_dialogue": "The goal and the obstacle are clear. The remaining question is who would implement the change.",
+    "branches": "If confirmed, ask that question; if not, correct the milestone.",
+    "practice": "Recover without restarting answered questions.",
+    "do_not_apply": "A framework guides the conversation; it does not override the buyer's answer.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 573,
+        "end_line": 762
+      },
+      {
+        "source_id": "V1",
+        "start_line": 2124,
+        "end_line": 2337,
+        "start_seconds": 4350.6,
+        "end_seconds": 4788.8
+      },
+      {
+        "source_id": "V2",
+        "start_line": 5588,
+        "end_line": 5792,
+        "start_seconds": 10764.8,
+        "end_seconds": 11169.4
+      }
+    ]
+  },
+  {
+    "id": "MGR01",
+    "module": "09-manager-practice",
+    "title": "Choose one practice priority",
+    "trigger": "A review lists many faults without a behavior to rehearse.",
+    "action": "Select the most consequential supported issue and model the alternative.",
+    "suggested_dialogue": "The practice target is accepting a corrected premise before the next question.",
+    "branches": "If the learner can perform it, vary the buyer answer; if not, repeat this behavior.",
+    "practice": "Name one visible pass criterion before the drill.",
+    "do_not_apply": "A large library should produce focused feedback, not a hundred-point report.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 185,
+        "end_line": 420
+      },
+      {
+        "source_id": "V1",
+        "start_line": 623,
+        "end_line": 742,
+        "start_seconds": 1300.4,
+        "end_seconds": 1549.2
+      },
+      {
+        "source_id": "V2",
+        "start_line": 7501,
+        "end_line": 7824,
+        "start_seconds": 14625.2,
+        "end_seconds": 15297.7
+      },
+      {
+        "source_id": "V2",
+        "start_line": 8501,
+        "end_line": 8725,
+        "start_seconds": 16578.3,
+        "end_seconds": 16993.0
+      }
+    ]
+  },
+  {
+    "id": "MGR02",
+    "module": "09-manager-practice",
+    "title": "Let the learner actually respond",
+    "trigger": "The coach writes both sides and calls the exercise completed.",
+    "action": "Present one buyer turn and wait for the learner.",
+    "suggested_dialogue": "Buyer: We already receive the reports. That is not what is missing.",
+    "branches": "If the learner acknowledges the correction, advance; if not, correct that one move.",
+    "practice": "Practice is complete only after a real learner attempt.",
+    "do_not_apply": "A written demonstration is not evidence of trained skill.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 185,
+        "end_line": 420
+      },
+      {
+        "source_id": "V1",
+        "start_line": 623,
+        "end_line": 742,
+        "start_seconds": 1300.4,
+        "end_seconds": 1549.2
+      },
+      {
+        "source_id": "V2",
+        "start_line": 7501,
+        "end_line": 7824,
+        "start_seconds": 14625.2,
+        "end_seconds": 15297.7
+      },
+      {
+        "source_id": "V2",
+        "start_line": 8501,
+        "end_line": 8725,
+        "start_seconds": 16578.3,
+        "end_seconds": 16993.0
+      }
+    ]
+  },
+  {
+    "id": "MGR03",
+    "module": "09-manager-practice",
+    "title": "Correct promptly and specifically",
+    "trigger": "Feedback arrives long after the rep has repeated the error.",
+    "action": "Point to the exact phrase and model one change immediately.",
+    "suggested_dialogue": "The next question still assumes missing reports. Try a question about execution instead.",
+    "branches": "If corrected, repeat; if not, reduce the task to one sentence.",
+    "practice": "The learner knows which words or choice to change.",
+    "do_not_apply": "Do not attack personality or motivation.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 185,
+        "end_line": 420
+      },
+      {
+        "source_id": "V1",
+        "start_line": 623,
+        "end_line": 742,
+        "start_seconds": 1300.4,
+        "end_seconds": 1549.2
+      },
+      {
+        "source_id": "V2",
+        "start_line": 7501,
+        "end_line": 7824,
+        "start_seconds": 14625.2,
+        "end_seconds": 15297.7
+      },
+      {
+        "source_id": "V2",
+        "start_line": 8501,
+        "end_line": 8725,
+        "start_seconds": 16578.3,
+        "end_seconds": 16993.0
+      }
+    ]
+  },
+  {
+    "id": "MGR04",
+    "module": "09-manager-practice",
+    "title": "Vary the buyer after repetition",
+    "trigger": "The rep can recite a response but cannot adapt.",
+    "action": "Rehearse the same skill with a different underlying buyer need.",
+    "suggested_dialogue": "Buyer: The reports are fine; the managers disagree about who acts on them.",
+    "branches": "If the rep changes the next question, pass the variant; otherwise return to diagnosis.",
+    "practice": "Pass across different answers, not just identical repetition.",
+    "do_not_apply": "Drill success does not establish better sales conversion.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 185,
+        "end_line": 420
+      },
+      {
+        "source_id": "V1",
+        "start_line": 623,
+        "end_line": 742,
+        "start_seconds": 1300.4,
+        "end_seconds": 1549.2
+      },
+      {
+        "source_id": "V2",
+        "start_line": 7501,
+        "end_line": 7824,
+        "start_seconds": 14625.2,
+        "end_seconds": 15297.7
+      },
+      {
+        "source_id": "V2",
+        "start_line": 8501,
+        "end_line": 8725,
+        "start_seconds": 16578.3,
+        "end_seconds": 16993.0
+      }
+    ]
+  },
+  {
+    "id": "MGR05",
+    "module": "09-manager-practice",
+    "title": "Use wins and losses together",
+    "trigger": "A team copies everything from a closed deal or only studies failures.",
+    "action": "Compare the same behavior across comparable successful and unsuccessful calls.",
+    "suggested_dialogue": "What did the rep do consistently, and what differed in the buyer's situation?",
+    "branches": "If the behavior appears in both, avoid causal claims; if pattern is promising, test prospectively.",
+    "practice": "Retain one counterexample for every proposed winning pattern.",
+    "do_not_apply": "One sale cannot validate a catchphrase.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 185,
+        "end_line": 420
+      },
+      {
+        "source_id": "V1",
+        "start_line": 623,
+        "end_line": 742,
+        "start_seconds": 1300.4,
+        "end_seconds": 1549.2
+      },
+      {
+        "source_id": "V2",
+        "start_line": 7501,
+        "end_line": 7824,
+        "start_seconds": 14625.2,
+        "end_seconds": 15297.7
+      },
+      {
+        "source_id": "V2",
+        "start_line": 8501,
+        "end_line": 8725,
+        "start_seconds": 16578.3,
+        "end_seconds": 16993.0
+      }
+    ]
+  },
+  {
+    "id": "MGR06",
+    "module": "09-manager-practice",
+    "title": "Run a useful game-tape review",
+    "trigger": "A group piles criticism onto a rep without a specific next action.",
+    "action": "Let the rep identify a change, preserve an evidenced strength, then rehearse one moment.",
+    "suggested_dialogue": "At this timestamp, what would the rep do differently next time?",
+    "branches": "If the diagnosis fits the evidence, practice; if not, replay the context.",
+    "practice": "The review ends with a demonstrated behavior, not just discussion.",
+    "do_not_apply": "Do not publish private recordings or employee rankings by default.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 185,
+        "end_line": 420
+      },
+      {
+        "source_id": "V1",
+        "start_line": 623,
+        "end_line": 742,
+        "start_seconds": 1300.4,
+        "end_seconds": 1549.2
+      },
+      {
+        "source_id": "V2",
+        "start_line": 7501,
+        "end_line": 7824,
+        "start_seconds": 14625.2,
+        "end_seconds": 15297.7
+      },
+      {
+        "source_id": "V2",
+        "start_line": 8501,
+        "end_line": 8725,
+        "start_seconds": 16578.3,
+        "end_seconds": 16993.0
+      }
+    ]
+  },
+  {
+    "id": "MGR07",
+    "module": "09-manager-practice",
+    "title": "Train listening as well as speaking",
+    "trigger": "Practice covers pitch recitation but not interpreting answers.",
+    "action": "Have the learner summarize the buyer's last answer before choosing a response.",
+    "suggested_dialogue": "State the buyer's problem in one sentence, then ask the next useful question.",
+    "branches": "If accurate, continue; if not, replay and correct.",
+    "practice": "The next question follows the actual answer, including corrections.",
+    "do_not_apply": "Knowing the product script is not the same as knowing the prospect.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 185,
+        "end_line": 420
+      },
+      {
+        "source_id": "V1",
+        "start_line": 623,
+        "end_line": 742,
+        "start_seconds": 1300.4,
+        "end_seconds": 1549.2
+      },
+      {
+        "source_id": "V2",
+        "start_line": 7501,
+        "end_line": 7824,
+        "start_seconds": 14625.2,
+        "end_seconds": 15297.7
+      },
+      {
+        "source_id": "V2",
+        "start_line": 8501,
+        "end_line": 8725,
+        "start_seconds": 16578.3,
+        "end_seconds": 16993.0
+      }
+    ]
+  },
+  {
+    "id": "MGR08",
+    "module": "09-manager-practice",
+    "title": "Assess readiness before live opportunities",
+    "trigger": "A new rep is sent to calls based only on days employed.",
+    "action": "Check accurate offer facts, recap ability, common branches, and secure next-step handling.",
+    "suggested_dialogue": "The rep should demonstrate these skills on varied practice cases before owning the full call.",
+    "branches": "If a critical gap remains, coach it; if ready, use supported live review.",
+    "practice": "Use observed readiness criteria rather than a fixed-day guarantee.",
+    "do_not_apply": "Do not recommend firing from a single call or source anecdote.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 185,
+        "end_line": 420
+      },
+      {
+        "source_id": "V1",
+        "start_line": 623,
+        "end_line": 742,
+        "start_seconds": 1300.4,
+        "end_seconds": 1549.2
+      },
+      {
+        "source_id": "V2",
+        "start_line": 7501,
+        "end_line": 7824,
+        "start_seconds": 14625.2,
+        "end_seconds": 15297.7
+      },
+      {
+        "source_id": "V2",
+        "start_line": 8501,
+        "end_line": 8725,
+        "start_seconds": 16578.3,
+        "end_seconds": 16993.0
+      }
+    ]
+  },
+  {
+    "id": "MGR09",
+    "module": "09-manager-practice",
+    "title": "Separate coaching skill from closing skill",
+    "trigger": "A top closer is assumed able to train everyone else.",
+    "action": "Observe whether the person can diagnose, model, correct, and repeat a behavior with another rep.",
+    "suggested_dialogue": "Show how a learner improves after one specific correction.",
+    "branches": "If they can coach, develop that role; if not, provide a coaching process or other support.",
+    "practice": "Evaluate learner improvement, not only the trainer's own sales.",
+    "do_not_apply": "Do not infer management ability from charisma or revenue alone.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 185,
+        "end_line": 420
+      },
+      {
+        "source_id": "V1",
+        "start_line": 623,
+        "end_line": 742,
+        "start_seconds": 1300.4,
+        "end_seconds": 1549.2
+      },
+      {
+        "source_id": "V2",
+        "start_line": 7501,
+        "end_line": 7824,
+        "start_seconds": 14625.2,
+        "end_seconds": 15297.7
+      },
+      {
+        "source_id": "V2",
+        "start_line": 8501,
+        "end_line": 8725,
+        "start_seconds": 16578.3,
+        "end_seconds": 16993.0
+      }
+    ]
+  },
+  {
+    "id": "MGR10",
+    "module": "09-manager-practice",
+    "title": "Bring delivery feedback into sales training",
+    "trigger": "Reps repeat claims that delivery cannot fulfill or lose conviction from unresolved complaints.",
+    "action": "Review actual customer outcomes and delivery scope with the responsible team.",
+    "suggested_dialogue": "Which promises are consistently delivered, and which need correcting in the sales conversation?",
+    "branches": "If a promise is unsupported, revise it; if delivery fails, fix the operational issue.",
+    "practice": "One feedback loop connects sales promises to delivery evidence.",
+    "do_not_apply": "Testimonials alone do not establish typical results or remove customer risk.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 185,
+        "end_line": 420
+      },
+      {
+        "source_id": "V1",
+        "start_line": 623,
+        "end_line": 742,
+        "start_seconds": 1300.4,
+        "end_seconds": 1549.2
+      },
+      {
+        "source_id": "V2",
+        "start_line": 7501,
+        "end_line": 7824,
+        "start_seconds": 14625.2,
+        "end_seconds": 15297.7
+      },
+      {
+        "source_id": "V2",
+        "start_line": 8501,
+        "end_line": 8725,
+        "start_seconds": 16578.3,
+        "end_seconds": 16993.0
+      }
+    ]
+  },
+  {
+    "id": "OPS01",
+    "module": "10-funnel-operations",
+    "title": "Diagnose the whole funnel",
+    "trigger": "A lower close percentage is treated as proof the team deteriorated.",
+    "action": "Track booked, showed, qualified, offered, purchased, and collected with explicit denominators.",
+    "suggested_dialogue": "The team should compare total qualified sales and cash alongside close percentage.",
+    "branches": "If volume or mix changed, analyze that change; if stable, investigate conversion behavior.",
+    "practice": "Report counts and denominators for the same cohort.",
+    "do_not_apply": "Do not add percentage improvements that should compound multiplicatively.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 421,
+        "end_line": 550
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1,
+        "end_line": 622,
+        "start_seconds": 0.0,
+        "end_seconds": 1298.3
+      },
+      {
+        "source_id": "V2",
+        "start_line": 3967,
+        "end_line": 4725,
+        "start_seconds": 7800.6,
+        "end_seconds": 9138.6
+      },
+      {
+        "source_id": "V2",
+        "start_line": 7001,
+        "end_line": 7766,
+        "start_seconds": 13624.4,
+        "end_seconds": 15188.8
+      }
+    ]
+  },
+  {
+    "id": "OPS02",
+    "module": "10-funnel-operations",
+    "title": "Compare comparable calls",
+    "trigger": "A leaderboard mixes warm existing customers with cold prospects.",
+    "action": "Separate stage, source, offer, buyer readiness, and rep before drawing a pattern.",
+    "suggested_dialogue": "Compare these calls with others serving the same purpose and similar lead context.",
+    "branches": "If comparable samples are small, state that; if sufficient, report observed patterns.",
+    "practice": "Use n of N applicable calls and retain exceptions.",
+    "do_not_apply": "No employee ranking from a single call.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 421,
+        "end_line": 550
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1,
+        "end_line": 622,
+        "start_seconds": 0.0,
+        "end_seconds": 1298.3
+      },
+      {
+        "source_id": "V2",
+        "start_line": 3967,
+        "end_line": 4725,
+        "start_seconds": 7800.6,
+        "end_seconds": 9138.6
+      },
+      {
+        "source_id": "V2",
+        "start_line": 7001,
+        "end_line": 7766,
+        "start_seconds": 13624.4,
+        "end_seconds": 15188.8
+      }
+    ]
+  },
+  {
+    "id": "OPS03",
+    "module": "10-funnel-operations",
+    "title": "Reduce unnecessary scheduling delay",
+    "trigger": "An interested buyer is booked far out despite nearer availability.",
+    "action": "Offer actual earlier openings without canceling the original slot until agreed.",
+    "suggested_dialogue": "An earlier opening is available. Would today or the existing time work better?",
+    "branches": "If earlier works, reconfirm details; if not, keep the agreed appointment.",
+    "practice": "The buyer chooses the new time and understands the change.",
+    "do_not_apply": "Fifteen-minute start increments do not imply fifteen-minute sales calls.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 421,
+        "end_line": 550
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1,
+        "end_line": 622,
+        "start_seconds": 0.0,
+        "end_seconds": 1298.3
+      },
+      {
+        "source_id": "V2",
+        "start_line": 3967,
+        "end_line": 4725,
+        "start_seconds": 7800.6,
+        "end_seconds": 9138.6
+      },
+      {
+        "source_id": "V2",
+        "start_line": 7001,
+        "end_line": 7766,
+        "start_seconds": 13624.4,
+        "end_seconds": 15188.8
+      }
+    ]
+  },
+  {
+    "id": "OPS04",
+    "module": "10-funnel-operations",
+    "title": "Make reminders relevant",
+    "trigger": "Generic reminders do not reconnect the buyer with the purpose.",
+    "action": "Use the agreed issue, participants, and preparation in a concise truthful reminder.",
+    "suggested_dialogue": "The next conversation is about [agreed issue]. Please bring [relevant preparation].",
+    "branches": "If the buyer cannot attend, offer a reschedule; if opted out, stop.",
+    "practice": "A reminder contains a real reason to attend, not fake urgency.",
+    "do_not_apply": "Do not make automated messages pretend to be live personal outreach.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 421,
+        "end_line": 550
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1,
+        "end_line": 622,
+        "start_seconds": 0.0,
+        "end_seconds": 1298.3
+      },
+      {
+        "source_id": "V2",
+        "start_line": 3967,
+        "end_line": 4725,
+        "start_seconds": 7800.6,
+        "end_seconds": 9138.6
+      },
+      {
+        "source_id": "V2",
+        "start_line": 7001,
+        "end_line": 7766,
+        "start_seconds": 13624.4,
+        "end_seconds": 15188.8
+      }
+    ]
+  },
+  {
+    "id": "OPS05",
+    "module": "10-funnel-operations",
+    "title": "Handle no-shows without inventing intent",
+    "trigger": "A missed meeting is labeled disinterest or incompetence.",
+    "action": "Check whether the buyer wants to reschedule and make the purpose clear.",
+    "suggested_dialogue": "The meeting was missed. Would another time still be useful for [agreed issue]?",
+    "branches": "If yes, agree a time; if no or opted out, stop.",
+    "practice": "Record the observed no-show separately from any stated reason.",
+    "do_not_apply": "Do not infer a psychological explanation from nonattendance.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 421,
+        "end_line": 550
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1,
+        "end_line": 622,
+        "start_seconds": 0.0,
+        "end_seconds": 1298.3
+      },
+      {
+        "source_id": "V2",
+        "start_line": 3967,
+        "end_line": 4725,
+        "start_seconds": 7800.6,
+        "end_seconds": 9138.6
+      },
+      {
+        "source_id": "V2",
+        "start_line": 7001,
+        "end_line": 7766,
+        "start_seconds": 13624.4,
+        "end_seconds": 15188.8
+      }
+    ]
+  },
+  {
+    "id": "OPS06",
+    "module": "10-funnel-operations",
+    "title": "Maintain useful call notes",
+    "trigger": "Notes contain vague labels but omit commitments and corrections.",
+    "action": "Capture confirmed problem, changes, objection, promises, owner, and next step.",
+    "suggested_dialogue": "The note should say what was learned and what was agreed, not simply interested.",
+    "branches": "If a fact was corrected, replace the premise in the summary; if uncertain, label it.",
+    "practice": "Another rep can continue without contradicting the buyer.",
+    "do_not_apply": "Drafting notes does not authorize a CRM write.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 421,
+        "end_line": 550
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1,
+        "end_line": 622,
+        "start_seconds": 0.0,
+        "end_seconds": 1298.3
+      },
+      {
+        "source_id": "V2",
+        "start_line": 3967,
+        "end_line": 4725,
+        "start_seconds": 7800.6,
+        "end_seconds": 9138.6
+      },
+      {
+        "source_id": "V2",
+        "start_line": 7001,
+        "end_line": 7766,
+        "start_seconds": 13624.4,
+        "end_seconds": 15188.8
+      }
+    ]
+  },
+  {
+    "id": "OPS07",
+    "module": "10-funnel-operations",
+    "title": "Keep follow-up purposeful",
+    "trigger": "Pipeline contact repeats checking in without new relevance.",
+    "action": "Use the unresolved question or agreed date as the reason for contact.",
+    "suggested_dialogue": "The open question was support after delivery. The verified answer is now available.",
+    "branches": "If the issue is resolved, ask the appropriate next step; if contact is declined, stop.",
+    "practice": "Each follow-up references an agreed issue or useful new fact.",
+    "do_not_apply": "Persistence is not permission to ignore opt-outs.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 421,
+        "end_line": 550
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1,
+        "end_line": 622,
+        "start_seconds": 0.0,
+        "end_seconds": 1298.3
+      },
+      {
+        "source_id": "V2",
+        "start_line": 3967,
+        "end_line": 4725,
+        "start_seconds": 7800.6,
+        "end_seconds": 9138.6
+      },
+      {
+        "source_id": "V2",
+        "start_line": 7001,
+        "end_line": 7766,
+        "start_seconds": 13624.4,
+        "end_seconds": 15188.8
+      }
+    ]
+  },
+  {
+    "id": "OPS08",
+    "module": "10-funnel-operations",
+    "title": "Inspect qualification before blaming closers",
+    "trigger": "A team filters almost everyone before the close or sends clearly unsuitable leads.",
+    "action": "Review actual fit criteria and downstream outcomes, not just closer convenience.",
+    "suggested_dialogue": "Which rejected leads lacked a real requirement, and which were rejected before the offer was understood?",
+    "branches": "If criteria are too restrictive, propose a measured test; if fit is poor, improve targeting.",
+    "practice": "Use qualified throughput and outcome evidence to evaluate the change.",
+    "do_not_apply": "Do not conceal material pricing to manufacture appointments.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 421,
+        "end_line": 550
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1,
+        "end_line": 622,
+        "start_seconds": 0.0,
+        "end_seconds": 1298.3
+      },
+      {
+        "source_id": "V2",
+        "start_line": 3967,
+        "end_line": 4725,
+        "start_seconds": 7800.6,
+        "end_seconds": 9138.6
+      },
+      {
+        "source_id": "V2",
+        "start_line": 7001,
+        "end_line": 7766,
+        "start_seconds": 13624.4,
+        "end_seconds": 15188.8
+      }
+    ]
+  },
+  {
+    "id": "OPS09",
+    "module": "10-funnel-operations",
+    "title": "Separate staffing from process bottlenecks",
+    "trigger": "The team wants more hires while current capacity or conversion is unclear.",
+    "action": "Measure available slots, utilized time, show rate, and actual qualified demand.",
+    "suggested_dialogue": "Is the bottleneck too few available conversations, too few shows, or what happens during the call?",
+    "branches": "If capacity is full, assess coverage; if not, fix the observed bottleneck.",
+    "practice": "Recommend a change against a measured constraint.",
+    "do_not_apply": "Do not import historical commission rates or hiring quotas as universal rules.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 421,
+        "end_line": 550
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1,
+        "end_line": 622,
+        "start_seconds": 0.0,
+        "end_seconds": 1298.3
+      },
+      {
+        "source_id": "V2",
+        "start_line": 3967,
+        "end_line": 4725,
+        "start_seconds": 7800.6,
+        "end_seconds": 9138.6
+      },
+      {
+        "source_id": "V2",
+        "start_line": 7001,
+        "end_line": 7766,
+        "start_seconds": 13624.4,
+        "end_seconds": 15188.8
+      }
+    ]
+  },
+  {
+    "id": "OPS10",
+    "module": "10-funnel-operations",
+    "title": "Align incentives with useful outcomes",
+    "trigger": "A team optimizes easy closes, booked calls, or claimed revenue at the expense of total results.",
+    "action": "Review show quality, qualification, collected cash, delivery fit, and customer outcomes together.",
+    "suggested_dialogue": "The metric should reward a useful completed step, not merely a label change.",
+    "branches": "If gaming is evident, redesign the measure for review; if not, do not infer misconduct.",
+    "practice": "Separate booked contract, promised payment, collected cash, and later refunds.",
+    "do_not_apply": "Compensation redesign needs business context; a call audit cannot prescribe it alone.",
+    "sources": [
+      {
+        "source_id": "H1",
+        "start_line": 421,
+        "end_line": 550
+      },
+      {
+        "source_id": "V1",
+        "start_line": 1,
+        "end_line": 622,
+        "start_seconds": 0.0,
+        "end_seconds": 1298.3
+      },
+      {
+        "source_id": "V2",
+        "start_line": 3967,
+        "end_line": 4725,
+        "start_seconds": 7800.6,
+        "end_seconds": 9138.6
+      },
+      {
+        "source_id": "V2",
+        "start_line": 7001,
+        "end_line": 7766,
+        "start_seconds": 13624.4,
+        "end_seconds": 15188.8
+      }
+    ]
+  }
+]
