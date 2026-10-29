@@ -7,3 +7,7 @@ Local Apple Silicon audio validation processed two public call excerpts (106 and
 Remaining validation: independent fresh Claude Code/Codex sessions from the published URL, Windows/Linux audio execution, multilingual and long-call accuracy, and independent human review of coaching. First-run execution is automated, but neither instant processing nor universally prompt-free installation is claimed.
 
 Integration references: [Claude Code skills](https://code.claude.com/docs/en/skills), [Codex skills](https://learn.chatgpt.com/docs/build-skills), [uv installer options](https://docs.astral.sh/uv/reference/installer/).
+
+## Coaching expansion validation
+
+The coaching lab adds ten original worked scenarios and an interactive practice loop. Five fictional behavioral cases are supplied in [evaluations/coaching-cases.md](evaluations/coaching-cases.md). They are evaluation prompts with criteria, not claimed automated passes. Three real transcript moments were re-read and used for owner-local, author-reviewed feedback examples: corrected reporting premise, missed training-process follow-up, and an assumed missing roadmap. No private call transcript or real-case output was added to this repository. Independent fresh-session model evaluation remains pending.

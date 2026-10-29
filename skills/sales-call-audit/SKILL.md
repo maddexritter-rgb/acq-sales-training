@@ -13,7 +13,7 @@ Write all analysis as a third-person observer, regardless of who uploads the cal
 
 ## Coaching voice and source use
 
-Before drafting, read [observable coaching](references/observable-coaching.md). Discover the supplied profile, or the single bundled profile under `brand/`, and load its voice profile and coaching method as well as its quote bank. Apply the trainer's teaching method and stated stylistic traits without claiming the trainer authored, approved, or personally reviewed the response. Quotes are evidence, not a substitute for the method. Generic tone adjectives alone are insufficient.
+Before drafting, read [observable coaching](references/observable-coaching.md). Discover the supplied profile, or the single bundled profile under `brand/`, and load its voice profile and coaching method as well as its quote bank. Apply the trainer's teaching method and stated stylistic traits without claiming the trainer authored, approved, or personally reviewed the response. When supplied, load the brand’s coaching lab to choose a matching worked example and practice criterion. Quotes are evidence, not a substitute for the method. Generic tone adjectives alone are insufficient.
 
 Use relevant source-backed decision rules to choose the intervention. Preserve source distinctions: handbook vs older course, setting vs closing, pre-sold vs cold, transactional vs stakeholder-led sale. Read [source retrieval](references/source-retrieval.md) when extending the method or resolving an uncertain training claim. Do not say all sources were reviewed merely because their files were downloaded or indexed.
 
@@ -37,9 +37,9 @@ Read [coaching standards](references/coaching-standards.md) and [decision cases]
 2. Build a concise timeline: reason for contact, current and desired state, obstacles, diagnosis, offer, buying request, objections, response, buyer reaction, and final agreed next step. Record absent stages only when the relevant part of the call was available.
 3. Trace downstream objections back to earlier discovery or offer gaps. Use the handbook's five objection families, allowing multiple labels and a separate fit/qualification issue. Do not assume the buyer's stated reason is an excuse.
 4. Separate direct observation, plausible interpretation, and unknowns. Outcome evidence and call quality are separate. Never claim that a response would certainly have closed the deal, invent lost revenue, or calculate win probability from a single call.
-5. Select the highest-impact coaching issue, then at most two supporting issues. Preserve successful behaviors too. Every recommendation must connect to a specific turn or clear gap, the buyer's actual situation, and a named training principle.
+5. Before selecting advice, compare the leading diagnosis with one plausible alternative using the actual call evidence. Trace a late objection to an earlier missed question only when that earlier moment is present. Select the highest-impact coaching issue, then at most two supporting issues. Preserve successful behaviors too. Every recommendation must connect to a specific turn or clear gap, the buyer's actual situation, and a named training principle.
 6. Offer replacement language that uses only known offer capabilities and the buyer's own stated problem. Mark invented example wording as a suggested response, never a transcript quote. Acknowledge, clarify/address, confirm, and invite the appropriate next step. Respect a clear refusal or genuine lack of fit.
-7. Finish with a short role-play for the top issue and one observable behavior to use on the next call. Give deeper analysis if requested; avoid burying the rep in a long checklist.
+7. For each priority intervention, state what the rep should do, what buyer answer changes the next move, and what observable behavior would demonstrate improvement. Finish with a short role-play for the top issue and one observable behavior to use on the next call. Give deeper analysis if requested; avoid burying the rep in a long checklist.
 
 ## Default response
 
@@ -51,6 +51,8 @@ Give the priority issue room to be useful:
 - **Suggested rep response:** speakable replacement wording, then `[wait]`; include the next branch if the buyer agrees or corrects it. No fictitious buyer agreement or guaranteed close.
 - **Keep:** a concrete successful behavior if one matters, rather than filler praise.
 - **Practice:** model the exact behavior, let the rep try it, correct one thing immediately, repeat, and recap. A manager or CEO may use this drill without being addressed as the rep.
+
+For requested interactive practice, present one buyer turn and wait for the learner; never fabricate the learner’s attempt or count a fully written demonstration as completed practice.
 
 Give one priority by default. Add other issues only when needed for the diagnosis or requested. Keep evidence limits to material facts. Do not pad the answer with teaching jargon or caveats already clear from the evidence.
 

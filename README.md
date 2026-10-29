@@ -29,3 +29,9 @@ The included launchers automate runtime setup on macOS/Linux and provide a Windo
 This is a skill for an existing Claude Code/Codex installation with permission to execute local programs and download dependencies. It is not a standalone hosted application. The coaching uses distilled training material; it is not personally authored or reviewed by the quoted trainer. No private prospect recordings or full training books are included.
 
 See [installation instructions](INSTALL.md), [the skill](skills/sales-call-audit/SKILL.md), and [audio implementation and third-party notices](skills/sales-call-audit/references/local-audio.md).
+
+## Coaching depth
+
+The bundled learning material contains 25 source-backed decision cards and ten worked scenarios with replacement dialogue, buyer-response branches, and practice criteria. It draws on the two supplied public video courses and distilled handbook principles. Full courses, the paid handbook, private source indexes, and real prospect transcripts are not distributed. The distilled guidance itself is public and readable.
+
+Ask for a focused call review, a script rewrite, or interactive practice. During practice the coach gives one buyer line, waits for the learner, and corrects one behavior before the next attempt.

@@ -34,3 +34,7 @@ Read [coaching-method.md](coaching-method.md) to select a source-backed interven
 ## Private retrieval and coverage
 
 The complete retained handbook and both course transcripts have 305 searchable passages with source IDs, line spans, timestamps for video, and source hashes. Acquisition/indexing coverage is complete for these three text files. Context review is reported separately above. The owner’s private index and full sources are not distributed with the skill. Other workbooks or linked videos have no implied coverage. The separately reviewed tone document has no full-text copy in this index and supplies no quote in the quote bank.
+
+## Worked coaching and practice
+
+Load [coaching-lab.md](coaching-lab.md) for ten original scenario applications, conditional replacement dialogue, observable practice criteria, and interactive rehearsal. These are distilled teaching adaptations; they are not a reproduction of the paid handbook or quotes from customer calls. V1 4605–4706s was additionally reviewed for decision clarification.
