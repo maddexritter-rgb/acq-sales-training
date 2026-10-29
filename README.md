@@ -1,4 +1,4 @@
-# Sales Call Coach
+# ACQ Sales Training
 
 Give Claude Code or Codex a sales call. Get specific feedback, better wording, and a focused practice drill.
 
@@ -6,7 +6,7 @@ Give Claude Code or Codex a sales call. Get specific feedback, better wording, a
 
 Paste this into **Claude Code or Codex**, alongside a recording or its local file path:
 
-> Install https://github.com/maddexritter-rgb/sales-call-coach into this project and review this sales call. Follow its INSTALL.md, handle setup, and give me the most important improvement with exact replacement wording.
+> Install https://github.com/maddexritter-rgb/acq-sales-training into this project and review this sales call. Follow its INSTALL.md, handle setup, and give me the most important improvement with exact replacement wording.
 
 The assistant handles installation and local transcription, then gives feedback in the conversation. No transcription account, API key, or manual Python configuration. First use downloads software and models and can take several minutes. Later calls reuse the cache. Normal host permission prompts still apply.
 

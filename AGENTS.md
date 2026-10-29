@@ -1,4 +1,4 @@
-# Sales Call Coach
+# ACQ Sales Training
 
 When asked to install or use this repository, read `INSTALL.md`, then `skills/sales-call-audit/SKILL.md` and follow its relevant references. Start the requested call audit in this conversation after installation; do not stop with setup instructions. If a recording is supplied, run the bundled local launcher and then give coaching from the generated evidence. If the user asks only to install, install and explain how to supply the first call; do not invent a recording.
 
