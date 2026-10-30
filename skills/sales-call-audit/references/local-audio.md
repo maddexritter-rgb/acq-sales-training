@@ -2,7 +2,7 @@
 
 ## User experience
 
-The user supplies a recording and asks for feedback. The assistant preserves the original, runs the command below, reads the resulting evidence, maps speaker clusters to roles using the conversation, and delivers the normal third-person coaching. Do not make the user operate a terminal when the host can execute it. During initial setup, explain that software and public model weights are being downloaded; subsequent runs use the cache. If execution or downloads are unavailable, state that specific limitation and accept a transcript. A text-only chat cannot execute this package.
+The user supplies a recording or accessible video URL and asks for feedback. The assistant preserves the original, runs the command below, reads the resulting evidence, maps speaker clusters to roles using the conversation, and delivers the normal third-person coaching. Do not make the user operate a terminal when the host can execute it. During initial setup, explain that software and public model weights are being downloaded; subsequent runs use the cache. If execution or downloads are unavailable, state that specific limitation and accept a transcript. A text-only chat cannot execute this package.
 
 From the skill directory, run with a new output directory:
 
@@ -31,8 +31,12 @@ For feedback, use a measurement only when it materially supports the recommendat
 
 CPU int8 faster-whisper small supplies transcription and word timing. Sherpa-onnx with public segmentation and speaker embedding weights estimates speaker clusters. Praat/Parselmouth measures pitch; NumPy measures recording level. The runner pins primary dependency versions and the ASR revision and checks downloaded diarization model hashes. Transitive packages resolve at installation time; this is not a fully locked binary distribution.
 
-Tested on Apple Silicon with two real public sales-call excerpts. Other operating systems, multilingual accuracy, very long calls, poor audio and overlapping speakers are not validated by this release. Local processing can be slower than real time on weaker hardware. ASR can omit fillers, miss names or invent words; important quotes require review. There is no hidden paid fallback.
+Tested on Apple Silicon with two real public sales-call excerpts and a complete 42-minute YouTube URL intake. The long compilation produced fragmented speaker clusters; those labels must not be treated as participant identities. Other operating systems, multilingual accuracy, very long calls, poor audio and overlapping speakers are not validated by this release. Local processing can be slower than real time on weaker hardware. ASR can omit fillers, miss names or invent words; important quotes require review. There is no hidden paid fallback.
 
 ## Third-party components
 
 The ZIP contains our runner and instructions, not dependency binaries or model weights. First use fetches dependencies and weights separately under their own terms. Preserve their notices when redistributing them. Sources: [faster-whisper](https://github.com/SYSTRAN/faster-whisper), [sherpa-onnx models](https://k2-fsa.github.io/sherpa/onnx/speaker-diarization/models.html), [Parselmouth](https://parselmouth.readthedocs.io/en/stable/). Faster-whisper is MIT; sherpa-onnx is Apache-2.0; Parselmouth/Praat includes GPL terms. Segmentation license and README are retained in the model cache. Do not describe the whole dependency/model stack as MIT or license-free.
+
+## Downloader components
+
+URL inputs additionally install `yt-dlp[default]==2026.10.26` and the `deno==2.9.8` Python binary redistribution in the isolated runtime. Local-file inputs do not require them. The default yt-dlp dependency group supplies compatible EJS components. No dependency binaries are checked into this repository. See [yt-dlp](https://github.com/yt-dlp/yt-dlp), [YouTube JavaScript support](https://github.com/yt-dlp/yt-dlp/wiki/EJS), and [Deno redistribution](https://pypi.org/project/deno/). yt-dlp uses the Unlicense; Deno uses MIT, with bundled dependency notices applying separately. Site changes can require a future pinned-version update.

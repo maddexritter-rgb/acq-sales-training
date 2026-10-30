@@ -16,3 +16,5 @@ __pycache__/
 *.mov
 *.flac
 *.ogg
+# Downloaded media provenance can include private/signed URLs.
+*.source/

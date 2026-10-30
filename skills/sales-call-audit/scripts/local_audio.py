@@ -150,6 +150,9 @@ def run(args):
             try: diar=diarize(audio,args.cache,args.offline,args.speakers)
             except Exception as exc:
                 warnings.append(f'Diarization unavailable: {type(exc).__name__}. Speaker identity remains unknown. No cloud fallback.')
+        cluster_count=len({x['speaker'] for x in diar})
+        if cluster_count>12:
+            warnings.append(f'Automatic diarization produced {cluster_count} speaker clusters. This can split the same person across labels; it is not a participant count. Review roles call by call before speaker-specific coaching.')
         for w in words:
             w['speaker']=assign(w['start'],w['end'],diar)
             w['review_flags']=[]

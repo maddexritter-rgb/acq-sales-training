@@ -4,13 +4,13 @@ Give Claude Code or Codex a sales call. Get specific feedback, better wording, a
 
 ## Start here
 
-Paste this into **Claude Code or Codex**, alongside a recording or its local file path:
+Paste this into **Claude Code or Codex**, alongside a recording, its local file path, or a video URL:
 
 > Install https://github.com/maddexritter-rgb/acq-sales-training into this project and review this sales call. Follow its INSTALL.md, handle setup, and give me the most important improvement with exact replacement wording.
 
 The assistant handles installation and local transcription, then gives feedback in the conversation. No transcription account, API key, or manual Python configuration. First use downloads software and models and can take several minutes. Later calls reuse the cache. Normal host permission prompts still apply.
 
-Already in this repository? Say: **“Review this call: /path/to/recording.mp4”**. For a transcript, paste it or attach TXT, SRT, VTT, or provider JSON. Connected recorder transcripts also work when your assistant has access.
+Already in this repository? Say: **“Review this call: /path/to/recording.mp4”**. Or paste a YouTube or other supported video link—the assistant downloads its audio with yt-dlp and continues through local transcription to feedback. For a transcript, paste it or attach TXT, SRT, VTT, or provider JSON. Connected recorder transcripts also work when your assistant has access.
 
 ## What comes back
 
@@ -37,3 +37,7 @@ The bundled learning material contains 100 detailed source-backed decision cards
 Ask for a focused call review, a script rewrite, or interactive practice. During practice the coach gives one buyer line, waits for the learner, and corrects one behavior before the next attempt.
 
 Explore the [coaching library](skills/sales-call-audit/brand/alex/library/README.md), see [an example first audit](skills/sales-call-audit/brand/alex/library/first-audit.md), or inspect [source coverage](skills/sales-call-audit/brand/alex/library/coverage.json). The first response stays focused; the deeper library supports follow-up questions, scripts, and practice.
+
+## Video-link intake
+
+The launcher automatically installs yt-dlp and YouTube JavaScript support. No separate downloader setup or API key is required. Supply one completed, accessible video; playlists and live streams are not accepted. Private, blocked, DRM-protected, or unsupported videos may need an upload or an authorized transcript connector. First-use setup and transcription take time; processing is not instant. Downloads stay local and are preserved alongside the evidence folder.
